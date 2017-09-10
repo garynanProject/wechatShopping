@@ -1,0 +1,397 @@
+.store_index_main{
+	padding-bottom: .98rem;;
+}
+
+/*店铺头部*/
+	.store_index_header{
+		height: 1.72rem;
+		padding: 0;
+		background: url('../img/my_store_banner.jpg') center center / 100% 100% no-repeat;
+	}
+	.store_index_header_box{
+		position: relative;
+		height: 100%;
+		padding: .3rem .3rem .3rem 1.4rem;
+	}
+
+	/*头像*/
+		.store_index_header_img{
+			position: absolute;
+			left: .3rem;
+			width: 1.1rem;
+			height: 1.1rem;
+			background: url('../img/store_head_img.png') center center / 100% 100% no-repeat;
+		}
+	/*店铺信息*/
+		.store_index_header_txt{
+			height: 100%;
+			padding: .23rem 0 .17rem .16rem ;
+		}
+		.store_index_header_txt_inner{
+			position: relative;
+		}
+		.store_index_name{
+			margin-bottom: .1rem;
+			font-size: .26rem;
+			letter-spacing: .01rem;
+			color: #fff;
+		}
+		.store_index_like_num{
+			font-size: .24rem;
+			font-weight: lighter;
+			letter-spacing: .01rem;
+			color: #fff;
+		}
+		.store_index_like_btn{
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 1.2rem;
+			height: .6rem;
+			border: .02rem solid #fff;
+			border-radius: .3rem;
+			text-align: center;
+			line-height: .56rem;
+			letter-spacing: .01rem;
+			font-size: .28rem;
+			font-weight:  lighter;
+			color: #fff;
+		}
+
+/*店铺导航*/
+	.store_index_nav{
+		height: 1rem;
+		padding: .2rem .3rem;
+		background: #fff;
+	}
+	.store_index_nav_inner{
+		height: 100%;
+	}
+	.store_index_nav_inner li{
+		height: 100%;
+		margin-left: 0 !important;
+		margin-right: .33rem;
+	}
+	.store_index_nav_inner li a{
+		display: inline-block;
+		height: 100%;
+		line-height: .4rem;
+		box-sizing: border-box;
+		padding: .1rem .3rem;
+		border-radius: .3rem !important;
+		font-size: .28rem;
+		color: #333;
+		background: #f2f2f2;
+	}
+	.store_index_nav_inner li:nth-last-of-type(1){
+		margin-right: 0 !important;
+	}
+	.store_index_nav_inner .active a{
+		border: .02rem solid #ff6699;
+		color: #ff6699 !important;
+		background: #fff !important;
+	}
+
+	@media(max-width: 330px){
+		.store_index_nav_inner li{
+			margin-right: .28rem;
+		}
+	}
+
+/*轮播图*/
+	.store_index_carousel{
+		padding: .22rem .2rem;
+	}
+	.store_index_carousel img{
+		width: 100%;
+	}
+	.store_index_carousel .swiper-pagination{
+		bottom: .08rem;
+	}
+	.store_index_carousel_inner .swiper-pagination-bullet{
+		width: .12rem;
+		height: .12rem;
+		margin: 0 .05rem !important;
+		border: none;
+		background: #fff;
+		opacity: 1;
+		filter: alpha( opacity: 100 );
+	}
+	.store_index_carousel_inner .swiper-pagination-bullet-active{
+		position: relative;
+		top: .03rem;
+		width: .2rem;
+		height: .2rem;
+		border: .02rem solid #fff;
+		background: transparent;
+	}
+
+/*优惠券*/
+	.store_index_cupiont{
+		padding: 0 .2rem;
+		margin-bottom: .22rem;
+	}
+	.store_index_cupiont_box{
+		padding: .18rem .28rem;
+		height: 1.54rem;
+		background: #fff;
+	}
+	.store_index_cupiont_box_inner{
+		height: 100%;
+		margin: 0;
+	}
+	.store_index_cupiont_item{
+		float: left;
+		height: 100%;
+		text-align: center;
+	}
+	.store_index_cupiont_item:nth-of-type(1){
+		padding-left: 0;
+		padding-right: .08rem;
+	}
+	.store_index_cupiont_item:nth-of-type(2){
+		padding-left: .08rem;
+		padding-right: .08rem;
+	}
+	.store_index_cupiont_item:nth-last-of-type(1){
+		padding-left: .08rem;
+		padding-right: 0;
+	}
+	.store_index_cupiont_item_inner{
+		height: 100%;
+		padding: .26rem 0 .22rem 0;
+	}
+	.store_index_cupiont_item:nth-of-type(1) .store_index_cupiont_item_inner{
+		background: #57c79c;
+	}
+	.store_index_cupiont_item:nth-of-type(2) .store_index_cupiont_item_inner{
+		background: #ff6699;
+	}
+	.store_index_cupiont_item:nth-of-type(3) .store_index_cupiont_item_inner{
+		background: #41c1f7;
+	}
+	
+	.store_index_cupiont_item h4 , .store_index_cupiont_item h5{
+		font-size: .24rem;
+		letter-spacing: .02rem;
+		color: #fff;
+	}
+	.store_index_cupiont_item h5{
+		margin-top: .06rem;
+		font-weight: lighter;
+	}
+	.store_index_cupiont_item h4 big{
+		font-size: .34rem;
+	}
+
+/*商品展示 ---------------------------------------------*/		
+	.store_index_woods{
+		padding: 0 .2rem;
+	}
+	/*内容*/
+		.store_index_woods_box .row{
+			margin: 0;
+			margin-bottom: .2rem;
+		}
+		.store_index_woods_left{
+			padding-left: 0;
+			padding-right: .1rem;
+		}
+		.store_index_woods_right{
+			padding-right: 0;
+			padding-left: .1rem;
+		}
+		.store_index_woods_item_box{
+			height: 100%;
+			padding: .1rem;
+			background: #fff;
+		}
+		.store_index_woods_item_box .thumbnail{
+			margin-bottom: .02rem;
+			border-color: transparent;
+		}
+		.store_index_woods_item_box .thumbnail img{
+			width: 100%;
+		}
+		.store_index_woods_item_box h4{
+			font-size: .26rem;
+			color: #333;
+		}
+		.store_index_woods_item_box p{
+			margin-top: .02rem;
+			margin-bottom: .02rem;
+			font-size: .24rem;
+			color: rgb(255,102,156);
+		}
+
+/*底部工具*/
+	/**/
+		.store_index_tools{
+			position: fixed;
+			bottom: 0;
+			z-index: 999; 
+			width: 100%;
+			height: .98rem;
+		}
+		.store_index_tools_newest{
+			float: left;
+			width: 35%;
+			height: 100%;
+			background: #fd95b8;
+		}
+		.store_index_tools_newest_inner{
+			height: 100%;
+			line-height: .98rem;
+			text-align: center;
+			font-size: .32rem;
+			font-weight: lighter;
+			color: #fff;
+		}
+		.store_index_tools_newest ul{
+			left: .19rem;
+			border: 1px solid #eaeaea;
+			box-shadow: 1px 1px .1rem #eaeaea;
+			padding: 0;
+			margin-bottom: .16rem !important;
+			min-width: 0;
+			width: 2.1rem;
+			text-align: center;
+		}
+		.store_index_tools_newest ul li{
+			padding-top: .2rem;
+			padding-bottom: .2rem;
+			border-bottom: 1px solid #eaeaea;
+			font-size: .3rem;
+		}
+		.store_index_tools_newest ul li:nth-last-of-type(1){
+			border: none;
+		}
+		.store_index_tools_newest ul span{
+			position: absolute;
+			top: 99.5%;
+			left: 50%;
+			width: .2rem;
+			margin-left: -.08rem;
+		}
+		.store_index_tools_newest ul span::before{
+			font-size: .16rem;
+			color: #fff;
+		}
+
+	/*联系客服*/
+		.store_index_tools_cusservice{
+			float: left;
+			width: 35%;
+			height: 100%;
+			background: #ff6699;
+		}
+		.store_index_tools_cusservice_inner{
+			height: 100%;
+			line-height: .98rem;
+			text-align: center;
+			font-size: .32rem;
+			font-weight: lighter;
+			color: #fff;
+		}
+
+	/**/
+		.store_index_tools_last{
+			float: left;
+			width: 30%;
+			height: 100%;
+			background: #fff;
+		}
+		.store_index_tools_last_item{
+			float: left;
+			width: 50%;
+			height: 100%;
+			padding: .16rem 0;
+			border-right: 1px solid #eaeaea;
+			text-align: center;
+		}
+		.store_index_tools_last_item h3{
+			margin-bottom: .1rem;
+		}
+		.store_index_tools_last_item h3 img{
+			width: .42rem;
+		}
+		.store_index_tools_last_item h4{
+			font-size: .18rem;
+			color: #929192;
+		}
+		.store_index_tools_last_item:nth-of-type(2){
+			border-right: 0;
+		}
+		.store_index_tools_last_item:nth-of-type(2) img{
+			width: .36rem;
+		}
+		
+		@media( max-width: 375px ){
+			.store_index_tools_last_item h3{
+				margin-bottom: .02rem;
+			}
+			.store_index_tools_last_item{
+				padding: 0 !important;
+			}
+		}
+		@media( max-width: 414px ){
+			.store_index_tools_last_item{
+				padding: .04rem 0 !important;
+			}
+		}
+		@media( max-width: 600px ){
+			.store_index_tools_last_item{
+				padding: .08rem 0;
+			}
+		}
+
+/*返回顶部工具*/
+	    .to_top{
+	    	position: absolute;
+	    	bottom: 1.26rem;
+	    	right: 15px;
+	    	border: 1px solid #e0e0e0;
+	    	border-radius: 25px;
+	    	box-shadow: 1px 1px 15px #aaa;
+	    	width: 50px;
+	    	height: 50px;
+	    	text-align: center;
+	    	z-index: 999;
+	    	background: rgba(255,255,255,.95);
+	    }
+	    .to_top img{
+	    	height: 40px;
+	    }
+	    @media(min-width: 376px){
+	    	.to_top{
+		    	/*bottom: 85px;*/
+		    	width: 55px;
+		    	height: 55px;
+		    	border-radius: 55px;
+		    }
+		    .to_top img{
+		    	height: 45px;
+		    }
+	    } 
+	    @media(min-width: 768px){
+	    	.to_top{
+		    	/*bottom: 95px;*/
+		    	width: 70px;
+		    	height: 70px;
+		    	border-radius: 35px;
+		    }
+		    .to_top img{
+		    	height: 60px;
+		    }
+	    } 
+	    @media(min-width: 992px){
+	    	.to_top{
+		    	/*bottom: 95px;*/
+		    	width: 90px;
+		    	height: 90px;
+		    	border-radius: 45px;
+		    }
+		    .to_top img{
+		    	height: 70px;
+		    }
+	    } 

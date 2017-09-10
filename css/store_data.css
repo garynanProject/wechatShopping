@@ -1,0 +1,36 @@
+/*引入模块*/
+
+	/*底部长按钮 --------------------------------------------------------------*/
+		.footer_long_btn_box{
+			padding: .34rem 1.2rem .56rem 1.2rem;
+		}
+		.footer_long_btn_real{
+			display: block;
+			box-sizing: border-box;
+			border: 2px solid #999;
+			border-radius: .45rem;
+			height: .9rem;
+			line-height: .86rem;
+			text-align: center;
+			font-size: .32rem;
+			color: #999;
+		}
+
+/*店铺资料 --------------------------------------------------------*/
+	body{
+		background-color: #fff;
+	}
+	.store_data_box{
+		padding: 0 .3rem;
+	}
+	.store_data_2d_code{
+		text-align: center;
+	}
+	.store_data_2d_code img{
+		margin-top: .86rem;
+		width: 4.36rem;
+	}
+	.store_data_btn{
+		border-color: #ff6699;
+		color: #ff6699;
+	}

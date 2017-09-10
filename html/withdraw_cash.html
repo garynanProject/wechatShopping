@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0 , maximum-scale=1.0 , minimum-scale=1.0 , user-scalable=0">
+	<title>微信商城</title>
+	<!-- bootstrap.css -->
+	<link rel="stylesheet" href="../tools/css/bootstrap.min.css">
+	<!-- swiper.css -->
+	<link rel="stylesheet" href="../tools/css/swiper.min.css">
+	<!-- css -->
+	<link rel="stylesheet" href="../css/style_u.css">
+	<link rel="stylesheet" href="../css/withdraw_cash.css">
+</head>
+<body>
+	<!-- 累计说明 -->
+	<div class="withdraw_cash_main">
+		<div class="container withdraw_cash_box">
+			<form action="" class="form-horizontal withdraw_cash_box_inner">
+				<!-- 提现方式 -->
+				<div class="withdraw_cash_item form-group">
+					<label for="withdraw_cash_way" class="control-label col-xs-3">提现方式:</label>
+					<div class="dropdown input-group col-xs-9">
+						<div class="withdraw_cash_item_inner">
+							请选择提现方式
+							<span class="dropwown-toggle glyphicon glyphicon-menu-down" data-toggle="dropdown"></span>
+							<ul class="dropdown-menu">
+								<li>支付宝</li>
+								<li>微信钱包</li>
+								<li>储蓄卡</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 提现金额 -->
+				<div class="withdraw_cash_item form-group">
+					<label for="withdraw_cash_money" class="control-label col-xs-3">提现金额:</label>
+					<div class="dropdown input-group col-xs-9">
+						<div class="withdraw_cash_item_inner">
+							<input type="text" name="withdraw_cash_money" id="withdraw_cash_money" placeholder="最多提现¥100.00">
+						</div>
+					</div>
+				</div>
+				<!-- 提现账户 -->
+				<div class="withdraw_cash_item form-group">
+					<label for="withdraw_cash_money" class="control-label col-xs-3">提现账户:</label>
+					<div class="dropdown input-group col-xs-9">
+						<div class="withdraw_cash_item_inner">
+							<input type="text" name="withdraw_cash_money" id="withdraw_cash_money" placeholder="请输入提现账户">
+						</div>
+					</div>
+				</div>
+
+				<!-- 提现按钮 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+					<div class="footer_long_btn withdraw_cash_btn">
+						<div class="container-fluid footer_long_btn_box">
+							<div class="footer_long_btn_box_inner">
+								<a href="./my_saler.html" class="footer_long_btn_real">
+									提交
+								</a>
+							</div>
+						</div>
+					</div>
+			</form>
+		</div>
+	</div>
+
+	<!-- jq -->
+	<script src="../tools/js/jquery-1.10.1.min.js"></script>
+	<!-- bootstrap.js -->
+	<script src="../tools/js/bootstrap.min.js"></script>
+	<!-- swiper -->
+	<script src="../tools/js/swiper.min.js"></script>
+	<!-- main_js -->
+	<script src="../js/search_no_result.js"></script>
+</body>
+</html>

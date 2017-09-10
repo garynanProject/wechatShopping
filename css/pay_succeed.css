@@ -1,0 +1,141 @@
+body{
+		padding: 0;
+		background-color: #fff;
+	}
+@media(min-width: 376px){
+	body{
+		padding: 0;
+	}
+}
+/*新地址信息 ---------------------------------------------*/
+	.succeed_tips img{
+		margin-top: 30px;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.detiles_order_msg_inner{
+		padding: 15px 30px;
+		width: 100%;
+		border-radius: 25px;
+		background: #f7f7f7;
+	}	
+	.detiles_order_msg_inner p{
+		margin-bottom: 3px;
+	}
+	.detiles_order_msg_real{
+		color: #999999;
+	}
+
+	@media (min-width: 414px){
+		.detiles_order_msg_inner{
+			padding: 25px 35px;
+			border-radius: 25px;
+			font-size: 1.2rem;
+		}	
+	}
+
+	@media (min-width: 600px){
+		.detiles_order_msg_inner{
+			padding: 30px 40px;
+			border-radius: 35px;
+			font-size: 1.4rem;
+		}	
+	}
+
+	@media (min-width: 768px){
+		.detiles_order_msg_inner{
+			padding: 35px 45px;
+			border-radius: 45px;
+			font-size: 1.6rem;
+		}	
+	}
+
+	@media (min-width: 992px){
+		.detiles_order_msg_inner{
+			padding: 40px 50px;
+			border-radius: 60px;
+			font-size: 1.8rem;
+		}	
+	}
+
+	@media (min-width: 1200px){
+		.detiles_order_msg_inner{
+			padding: 50px 70px;
+			border-radius: 70px;
+			font-size: 1.8rem;
+		}	
+	}
+
+/*添加新地址 ---------------------------------------------*/
+	.goto_my_center{
+		padding: 50px;
+		text-align: center;
+		font-size: 1.2rem;
+		letter-spacing: 5px;
+		color: rgb(255,102,156);
+	}
+	.goto_my_center_inner{
+		padding: 9px 0;
+		border: 1px solid rgb(255,102,156);
+		border-radius: 40px;
+		background: #fff;
+	}
+
+	@media (min-width: 414px){
+		.goto_my_center{
+			padding: 70px;
+			padding-top: 60px;
+			font-size: 1.4rem;
+		}
+		.goto_my_center_inner{
+			padding: 9px 0;
+			border-radius: 40px;
+		}
+	}
+
+	@media (min-width: 600px){
+		.goto_my_center{
+			padding: 100px;
+			padding-top: 80px;
+			font-size: 1.7rem;
+		}
+		.goto_my_center_inner{
+			padding: 14px 0;
+			border-radius: 63px;
+		}
+	}
+
+	@media (min-width: 768px){
+		.goto_my_center{
+			padding: 130px;
+			padding-top: 110px;
+			font-size: 1.7rem;
+		}
+		.goto_my_center_inner{
+			padding: 14px 0;
+			border-radius: 63px;
+		}
+	}
+
+	@media (min-width: 992px){
+		.goto_my_center{
+			padding: 160px;
+			padding-top: 140px;
+			font-size: 2em;
+		}
+		.goto_my_center_inner{
+			padding: 19px 0;
+			border-radius: 65px;
+		}
+	}
+
+	@media (min-width: 1200px){
+		.goto_my_center{
+			padding: 190px;
+			font-size: 2em;
+		}
+		.goto_my_center_inner{
+			padding: 19px 0;
+			border-radius: 65px;
+		}
+	}

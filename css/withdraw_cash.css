@@ -1,0 +1,87 @@
+/*引入模块*/
+
+	/*底部长按钮 --------------------------------------------------------------*/
+		.footer_long_btn_box{
+			padding: .34rem 1.2rem .56rem 1.2rem;
+		}
+		.footer_long_btn_real{
+			display: block;
+			box-sizing: border-box;
+			border: 2px solid #999;
+			border-radius: .45rem;
+			height: .9rem;
+			line-height: .86rem;
+			text-align: center;
+			font-size: .32rem;
+			color: #999;
+		}
+
+/*分销说明 --------------------------------------------------------*/
+	body{
+		background-color: #fff;
+	}
+	.withdraw_cash_box{
+		padding: 0 .3rem;
+	}
+
+	/*提现方式*/
+		.withdraw_cash_item{
+			margin: .4rem 0 0  0 !important;
+		}
+		.withdraw_cash_item label{
+			padding: 0 !important;
+			height: .6rem;
+			line-height: .6rem;
+			text-align: center !important;
+			letter-spacing: .02rem;
+			font-size: .32rem;
+			font-weight: normal;
+		}
+		.withdraw_cash_item>div{
+			height: .6rem;
+			line-height: .5rem;
+			padding: .05rem .05rem .05rem .38rem !important;
+			letter-spacing: .01rem;
+			font-size: .28rem;
+			background: #f2f2f2;
+		}
+		.withdraw_cash_item_inner{
+			position: relative;
+		}
+		.withdraw_cash_item>div span{
+			position: absolute;
+			top: 0;
+			right: 0;
+			height: .5rem;
+			width: .5rem;
+			text-align: center;
+			line-height: .5rem;
+			background: #fff;
+		}
+		.withdraw_cash_item>div ul{
+			left: 0;
+			right: 0;
+			font-size: .24rem;
+			color: #999;
+		}
+		.withdraw_cash_item>div ul li{
+			padding-left: .38rem;
+		}
+
+	/*提现金额*/
+		.withdraw_cash_item input{
+			width: 100%;
+			border: transparent;
+			background-color: transparent;
+			letter-spacing: .01rem;
+			font-weight: normal;
+		}
+
+		/*提现按钮*/
+		.withdraw_cash_btn{
+			margin-top: 1.38rem;
+		}
+		.withdraw_cash_btn a{
+			border-color: #ff6699;
+			color: #ff6699;
+		}

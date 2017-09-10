@@ -1,0 +1,598 @@
+body{
+	padding: 0 0 93px 0;
+	background: rgb(242,242,242);
+}
+
+@media(min-width: 341px){
+	body{
+		padding-bottom: 100px;
+	}
+}
+@media(min-width: 376px){
+	body{
+		padding-bottom: 123px;
+	}
+}
+@media(min-width: 401px){
+	body{
+		padding-bottom: 134px;
+	}
+}
+@media(min-width: 768px){
+	body{
+		padding-bottom: 139px;
+	}
+}
+@media(min-width: 992px){
+	body{
+		padding-bottom: 145px;
+	}
+}
+@media(min-width: 1200px){
+	body{
+		padding-bottom: 158px;
+	}
+}
+/*购物车已有商品 --------------------------------------------------*/
+	.cart_woods_box{
+		padding: 0;
+	}
+	.wood_box{
+		margin: 0;
+		padding: 10px 0;
+		height: 93px;
+		line-height: 73px;
+		background: #fff;
+		border-bottom: 1px solid #e6e6e6;
+	}
+
+	/*勾选框*/
+		.cart_woods_check{
+			position: relative;
+			padding: 0 10px;
+			text-align: center;
+		}
+		.check_wood{
+			position: absolute;
+			left: 50%;
+			float: left;
+			margin-left: -10px;
+			width: 20px;
+			height: 20px;
+			border-radius: 10px;
+			background-color: #bbb;
+			background-size: 20px , 20px !important;
+		}
+		.check_wood input[type="checkbox"]{
+			float: left;
+			margin: 0;
+			filter: alpha( opacity: 0 );
+			opacity: 0;
+			width: 100%;
+			height: 100%;
+		}
+		@media (min-width: 341px){
+			.check_wood{
+		    	margin-left: -12px;
+		    	width: 23px;
+		    	height: 23px;
+		    	border-radius: 23px;
+		    	background-size: 23px , 23px !important;
+		    }
+	    }
+	    @media (min-width: 401px){
+			.check_wood{
+		    	margin-left: -15px;
+		    	width: 30px;
+		    	height: 30px;
+		    	border-radius: 15px;
+		    	background-size: 30px , 30px !important;
+		    }
+	    }
+	    @media (min-width: 486px){
+			.check_wood{
+		    	margin-left: -16px;
+		    	width: 32px;
+		    	height: 32px;
+		    	border-radius: 16px;
+		    	background-size: 32px , 32px !important;
+		    }
+	    }
+	    @media (min-width: 768px){
+			.check_wood{
+		    	margin-left: -17px;
+		    	width: 34px;
+		    	height: 34px;
+		    	border-radius: 17px;
+		    	background-size: 34px , 34px !important;
+		    }
+	    }
+	    @media (min-width: 1200px){
+			.check_wood{
+		    	margin-left: -19px;
+		    	width: 38px;
+		    	height: 38px;
+		    	border-radius: 19px;
+		    	background-size: 38px , 38px !important;
+		    }
+	    }
+
+	/*详细信息*/
+		.wood_box_inner{
+			float: left;
+			width: 100%;
+			max-height: 73px;
+			overflow: hidden;
+		}
+		.cart_woods_item{
+			padding: 0;
+		}
+
+		/*缩略图*/
+			.cart_woods_img{
+				float: left;
+				width: 30%;
+				box-sizng: border-box;
+			}
+			.cart_woods_img img{
+				width: 100%;
+			}
+
+		/*信息文字*/
+			.cart_woods_txt{
+				padding-right: 10px;
+				float: left;
+				width: 70%;
+				line-height: 14px;
+			}
+			.cart_woods_title{
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+			}
+			.cart_wood_price_box{
+				color: rgb(255,102,156);
+			}
+			.cart_wood_quantity{
+				width: 30%;
+				text-align: center;
+				border: none;
+				padding: 3px 0;
+				font-size: 1rem;
+				background: rgb(242,242,242);
+			}
+			.cart_wood_quantity_box{
+				position: relative;
+			}
+			.cart_wood_adding img, .cart_wood_minusing img{
+				position: relative;
+				top: -2px;
+				height: 23px;
+			}
+	
+		/*删除这个商品*/
+			.del_this_wood{
+				position: absolute;
+				bottom: 2px;
+				right: 0;
+				font-size: 1.1rem;
+				color: #bbb;
+			}
+			.del_this_wood img{
+				position: relative;
+				top: -1px;
+				margin-right: 3px;
+				height: 15px;
+			}
+
+		@media (min-width: 321px){
+			.cart_woods_title , .cart_wood_price_box{
+				font-size: 1.1rem;
+			}
+		}
+		@media (min-width: 376px){
+			/*盒子*/
+				.wood_box{
+					padding: 10px 0;
+					height: 103px;
+					line-height: 83px;
+				}
+				.wood_box_inner{
+					max-height: 83px;
+				}
+
+			/*信息文字*/
+				.cart_woods_title , .cart_wood_price_box{
+					font-size: 1.2rem;
+				}
+				.cart_wood_quantity_box{
+					margin-top: 15px;
+				}
+				.cart_wood_quantity{
+					font-size: 1.1rem;
+					padding: 6px 0;
+				}
+				.cart_wood_adding img, .cart_wood_minusing img{
+					position: relative;
+					top: -2px;
+					height: 25px;
+				}
+
+			/*删除这个商品*/
+				.del_this_wood{
+					font-size: 1.1rem;
+				}
+				.del_this_wood img{
+					top: -1px;
+					margin-right: 3px;
+					height: 16px;
+				}
+		}
+		@media (min-width: 481px){
+			/*盒子*/
+				.wood_box{
+					padding: 15px 0;
+					height: 130px;
+					line-height: 100px;
+				}
+				.wood_box_inner{
+					max-height: 100px;
+				}
+
+			/*信息文字*/
+				.cart_woods_title , .cart_wood_price_box{
+					font-size: 1.4rem;
+				}
+				.cart_wood_quantity_box{
+					margin-top: 21px;
+				}
+				.cart_wood_quantity{
+					font-size: 1.2rem;
+					padding: 8px 0;
+				}
+				.cart_wood_adding img, .cart_wood_minusing img{
+					position: relative;
+					top: -4px;
+					height: 29px;
+				}
+
+			/*删除这个商品*/
+				.del_this_wood{
+					font-size: 1.3rem;
+				}
+				.del_this_wood img{
+					top: -1px;
+					margin-right: 5px;
+					height: 18px;
+				}
+		}
+		@media (min-width: 601px){
+			/*盒子*/
+				.wood_box{
+					padding: 15px 0;
+					height: 190px;
+					line-height: 160px;
+				}
+				.wood_box_inner{
+					max-height: 160px;
+				}
+
+			/*信息文字*/
+				.cart_woods_title , .cart_wood_price_box{
+					font-size: 2.5rem;
+				}
+				.cart_wood_price_box{
+					margin-top: 20px;
+				}
+				.cart_wood_quantity_box{
+					margin-top: 30px;
+				}
+				.cart_wood_quantity{
+					font-size: 1.8rem;
+					padding: 12px 0;
+				}
+				.cart_wood_adding img, .cart_wood_minusing img{
+					position: relative;
+					top: -5px;
+					height: 44px;
+				}
+
+			/*删除这个商品*/
+				.del_this_wood{
+					font-size: 1.6rem;
+				}
+				.del_this_wood img{
+					top: -1px;
+					margin-right: 5px;
+					height: 25px;
+				}
+		}
+		@media (min-width: 769px){
+			/*盒子*/
+				.wood_box{
+					padding: 15px 0;
+					height: 230px;
+					line-height: 200px;
+				}
+				.wood_box_inner{
+					max-height: 200px;
+				}
+
+			/*信息文字*/
+				.cart_woods_title , .cart_wood_price_box{
+					font-size: 3rem;
+				}
+				.cart_wood_price_box{
+					margin-top: 26px;
+				}
+				.cart_wood_quantity_box{
+					margin-top: 56px;
+				}
+				.cart_wood_quantity{
+					font-size: 1.8rem;
+					padding: 10px 0;
+				}
+				.cart_wood_adding img, .cart_wood_minusing img{
+					position: relative;
+					top: -6px;
+					height: 44px;
+				}
+
+			/*删除这个商品*/
+				.del_this_wood{
+					font-size: 1.7rem;
+				}
+				.del_this_wood img{
+					top: -2px;
+					margin-right: 7px;
+					height: 27px;
+				}
+		}
+		@media (min-width: 992px){
+			/*盒子*/
+				.wood_box{
+					padding: 15px 0;
+					height: 260px;
+					line-height: 230px;
+				}
+				.wood_box_inner{
+					max-height: 230px;
+				}
+
+			/*信息文字*/
+				.cart_woods_title , .cart_wood_price_box{
+					font-size: 3rem;
+				}
+				.cart_wood_price_box{
+					margin-top: 34px;
+				}
+				.cart_wood_quantity_box{
+					margin-top: 64px;
+				}
+				.cart_wood_quantity{
+					font-size: 1.9rem;
+					padding: 12px 0;
+				}
+				.cart_wood_adding img, .cart_wood_minusing img{
+					position: relative;
+					top: -8px;
+					height: 58px;
+				}
+
+			/*删除这个商品*/
+				.del_this_wood{
+					font-size: 1.9rem;
+				}
+				.del_this_wood img{
+					top: -2px;
+					margin-right: 9px;
+					height: 33px;
+				}
+		}
+		@media (min-width: 1200px){
+			/*盒子*/
+				.wood_box{
+					padding: 15px 0;
+					height: 300px;
+					line-height: 270px;
+				}
+				.wood_box_inner{
+					max-height: 270px;
+				}
+
+			/*信息文字*/
+				.cart_woods_title , .cart_wood_price_box{
+					font-size: 3.4rem;
+				}
+				.cart_wood_price_box{
+					margin-top: 34px;
+				}
+				.cart_wood_quantity_box{
+					margin-top: 84px;
+				}
+				.cart_wood_quantity{
+					font-size: 2rem;
+					padding: 12px 0;
+				}
+				.cart_wood_adding img, .cart_wood_minusing img{
+					position: relative;
+					top: -8px;
+					height: 58px;
+				}
+
+			/*删除这个商品*/
+				.del_this_wood{
+					font-size: 1.9rem;
+				}
+				.del_this_wood img{
+					top: -2px;
+					margin-right: 9px;
+					height: 33px;
+				}
+		}
+
+	
+
+/*footer_tools ---------------------------------------------*/
+	/*结账工具*/
+	    .checkout_box{
+	    	text-align: center;
+	    	font-size: 1rem;
+	    }
+	    .checkout_item{
+	    	padding: 8px 15px;
+	    }
+	    /*checkbox*/
+		    .check_all_inner{
+		    	position: relative;
+		    	padding: 0;
+		    }
+		    .check_all_box{
+		    	position: absolute;
+		    	top:0;
+		    	left: 50%;
+		    	margin-left: -10px;
+		    	width: 20px;
+		    	height: 20px;
+		    	border-radius: 10px;
+		    	background: #bbb;
+		    	background-size: 20px , 20px !important;
+		    }
+		    .check_all input[type="checkbox"]{
+		    	filter: alpha( opacity: 30);
+		    	opacity: 0;
+		    	margin: 0;
+		    	width: 100%;
+		    	height: 100%;
+		    }
+		    .check_all input[type="checkbox"]:hover{
+		    	cursor: pointer;
+		    }
+		    @media (min-width: 341px){
+				.check_all_box{
+			    	margin-left: -12px;
+			    	width: 23px;
+			    	height: 23px;
+			    	border-radius: 23px;
+			    	background-size: 23px , 23px !important;
+			    }
+		    }
+		    @media (min-width: 401px){
+				.check_all_box{
+			    	margin-left: -15px;
+			    	width: 30px;
+			    	height: 30px;
+			    	border-radius: 15px;
+			    	background-size: 30px , 30px !important;
+			    }
+		    }
+		    @media (min-width: 486px){
+				.check_all_box{
+			    	margin-left: -16px;
+			    	width: 32px;
+			    	height: 32px;
+			    	border-radius: 16px;
+			    	background-size: 32px , 32px !important;
+			    }
+		    }
+		    @media (min-width: 768px){
+				.check_all_box{
+			    	margin-left: -17px;
+			    	width: 34px;
+			    	height: 34px;
+			    	border-radius: 17px;
+			    	background-size: 34px , 34px !important;
+			    }
+		    }
+		    @media (min-width: 1200px){
+				.check_all_box{
+			    	margin-left: -19px;
+			    	width: 38px;
+			    	height: 38px;
+			    	border-radius: 19px;
+			    	background-size: 38px , 38px !important;
+			    }
+		    }
+	    /*其他*/
+		    .check_all_text{
+		    	padding: 0;
+		    }
+		    .checkout_mark , .checkout_total{
+		    	color: rgb(255,102,156);
+		    }
+		    .checkout_btn{
+		    	background: rgb(255,102,156);
+		    }
+		    .checkout_btn a{
+		    	color: #fff;
+		    }
+		    @media (min-width: 341px){
+		    	.checkout_box{
+			    	font-size: 1.2rem;
+			    }
+		    	.checkout_item{
+			    	padding: 10px 15px;
+			    }
+		    }
+		    @media (min-width: 401px){
+		    	.checkout_box{
+			    	font-size: 1.5rem;
+			    }
+		    	.checkout_item{
+			    	padding: 12px 15px;
+			    }
+		    }
+
+	/*底部导航栏*/
+		.footer_tools{
+			position: fixed;
+			bottom: 0;
+			z-index: 999;
+			width: 100%;
+		}
+		.footer_tools_box{
+			background: #fff;
+			padding: 0;
+		}
+		.nav.row{
+			width: 100%;
+		}
+		.footer_tools .row{
+			margin: 0;
+		}
+		.footer_bar{
+			padding: 0 15px;
+		}
+		.footer_tools li{
+			padding: 0;
+		}
+		.footer_tools li a{
+			text-align: center;
+		}
+		.footer_tools .footer_bar a{
+			padding: 5px 10px;
+			background: #fff !important;
+			color: #929192;
+		}
+		.footer_tools .footer_bar .active a{
+			color: rgb(255,102,156);
+		}
+		.footer_tools_icon{
+			font-size: 1.5rem;
+			margin-bottom: 0;
+		}
+		.footer_tools_name{
+			font-size: .8rem;
+			margin-bottom: 0;
+		}
+		@media(min-width: 376px){
+			.footer_tools .footer_bar a{
+				padding: 10px 15px;
+			}
+			.footer_tools_icon{
+				font-size: 2rem;
+			}
+			.footer_tools_name{
+				font-size: 1rem;
+			}
+		}

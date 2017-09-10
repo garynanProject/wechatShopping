@@ -1,0 +1,45 @@
+/*引入模块*/
+
+	/*底部长按钮 --------------------------------------------------------------*/
+		.footer_long_btn_box{
+			padding: .34rem 1.2rem .56rem 1.2rem;
+		}
+		.footer_long_btn_real{
+			display: block;
+			box-sizing: border-box;
+			border: 2px solid #999;
+			border-radius: .45rem;
+			height: .9rem;
+			line-height: .86rem;
+			text-align: center;
+			font-size: .32rem;
+			color: #999;
+		}
+
+/*个人资料 --------------------------------------------------------*/
+	.be_saler_inner{
+		padding: 0;
+		margin-bottom: .22rem;
+	}
+	.be_saler_name , .be_saler_idcard , .be_saler_tel{
+		margin: 0;
+	}
+	.be_saler_name , .be_saler_idcard{
+		border-bottom: 1px solid #e5e5e5;
+	}
+	.be_saler_main input{
+		height: .88rem;
+		padding: .3rem;
+		border: none;
+		border-radius: 0;
+		font-size: .28rem;
+	}
+
+	/*提交*/
+	.be_saler_submit_box{
+		padding-top: .97rem;
+	}
+	.be_saler_submit{
+		border-color: #ff6699;
+		color: #ff6699;
+	}

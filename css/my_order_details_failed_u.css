@@ -1,0 +1,130 @@
+/*字体预处理*/
+	html{
+		font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+		font-size: 43px;
+	}
+	body{
+		font-size: 16px;
+	}
+	@media(min-width: 375px){
+		html{
+		font-size: 50px;
+		}
+	}
+	@media(min-width: 414px){
+		html{
+		font-size: 56px;
+		}
+	}
+	@media(min-width: 600px){
+		html{
+		font-size: 81px;
+		}
+	}
+	@media(min-width: 740px){
+		html{
+		font-size: 100px;
+		}
+	}
+	@media(min-width: 768px){
+		html{
+		font-size: 103px;
+		}
+	}
+	@media(min-width: 992px){
+		html{
+		font-size: 134px;
+		}
+	}
+	@media(min-width: 1200px){
+		html{
+		font-size: 162px;
+		}
+	}
+
+/*尺寸预处理*/
+	div , ul , ol , li , h1 , h2 , h3 , h4 , h5 , h6 , form{
+		padding: 0;
+		margin: 0;
+	}
+
+	a{
+		color: rgb(255,102,156);
+		text-decoration: none !important;
+	}
+	a:hover{
+		color: #ff6699;
+		text-decoration: none !important;
+	}
+
+	body{
+		background-color: #f2f2f2;
+	}
+
+/*模块引入*/
+	/*清单展示盒子 --------------------------------------------------------------*/
+		.list_box{
+			background: #fff;
+			margin-bottom: .22rem;
+		}
+		/*头部*/
+			.list_box_header{
+				border-bottom: 1px solid #d9d9d9;
+			}
+			.list_box_header_box{
+				padding: .22rem .3rem;
+			}
+			.list_box_header_box_inner{
+				height: .36rem;
+			}
+			/* logo */
+			.list_box_header_img{
+				float: left;
+			}
+			.list_box_header_img img{
+				width: .36rem;
+			}
+			/* 标题 */
+			.list_box_title{
+				float: left;
+				margin-left: .14rem;
+				line-height: .36rem;
+				font-size: .28rem;
+			}
+
+		/*清单内容*/
+			.list_box_body .list_box_body_box{
+				padding: .28rem .3rem .32rem .3rem;
+				height: 100%;
+				border-bottom: 1px solid #d9d9d9;
+			}
+			.list_box_body .list_box_body_box:nth-last-of-type(1){
+				border-bottom: none;
+			}
+
+	/*底部长按钮 --------------------------------------------------------------*/
+		.footer_long_btn_box{
+			padding: .34rem 1.2rem .56rem 1.2rem;
+		}
+		.footer_long_btn_real{
+			display: block;
+			box-sizing: border-box;
+			border: 2px solid #999;
+			border-radius: .45rem;
+			height: .9rem;
+			line-height: .86rem;
+			text-align: center;
+			font-size: .32rem;
+			color: #999;
+		}
+
+	/*按钮一 --------------------------------------------------------------*/
+		.btn_type_1{
+			float: right;
+			padding: .14rem .25rem;
+			border: .03rem solid #ff6699;
+			border-radius: .3rem;
+			height: .6rem;
+			line-height: .32rem;
+			font-size: .28rem;
+		}

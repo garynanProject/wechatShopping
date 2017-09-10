@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0 , maximum-scale=1.0 , minimum-scale=1.0 , user-scalable=0">
+	<title>微信商城</title>
+	<!-- bootstrap.css -->
+	<link rel="stylesheet" href="../tools/css/bootstrap.min.css">
+	<!-- swiper.css -->
+	<link rel="stylesheet" href="../tools/css/swiper.min.css">
+	<!-- css -->
+	<link rel="stylesheet" href="../css/style_universal.css">
+	<link rel="stylesheet" href="../css/build_new_adress.css">
+</head>
+<body>
+	<!-- 新地址信息 -->
+	<form action="">
+		<div class="form-group the_new_adress_box">
+			<!-- 收件人姓名 -->
+			<div class="input-group form-control the_new_adress_box_item">
+				<input type="text" name="username" id="username" placeholder="请填写收货人姓名" class="form-control">
+			</div>
+			<!-- 收件人手机号码 -->
+			<div class="input-group form-control the_new_adress_box_item">
+				<input type="text" name="tel" id="tel" placeholder="请填写手机号码" class="form-control">
+			</div>
+			<!-- 地址大范围 -->
+			<div class="the_new_adress_box_item head_adress_box" role="button" data-toggle="collapse" data-target="#head_adress">
+				省、市、区
+				<span class="glyphicon glyphicon-menu-right pull-right head_adress_tag"></span>
+			</div>
+			<ul class="collapse list-group head_adress" id="head_adress">
+				<li class="list-group-item active">广东省</li>
+				<li class="list-group-item">广东省</li>
+				<li class="list-group-item">广东省</li>
+				<li class="list-group-item">广东省</li>
+			</ul>
+			<!-- 详细地址 -->
+			<div class="input-group form-control the_new_adress_box_item">
+				<input type="text" name="detailed_adress" id="detailed_adress" placeholder="请填写详细地址" class="form-control">
+			</div>
+		</div>
+	</form>
+
+	<!-- 添加新地址 -->
+	<div class="save_new_adress">
+		<a href="./location_master.html">
+			<div class="save_new_adress_inner">
+				保存
+			</div>
+		</a>
+	</div>
+	
+	<!-- jq -->
+	<script src="../tools/js/jquery-1.10.1.min.js"></script>
+	<!-- bootstrap.js -->
+	<script src="../tools/js/bootstrap.min.js"></script>
+	<!-- swiper -->
+	<script src="../tools/js/swiper.min.js"></script>
+	<!-- main_js -->
+	<script src="../js/build_new_adress.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+/*引入模块*/
+	/*自定义、描述、上传图片 --------------------------------------------------------*/
+		.freebox1_box{
+			padding: 0.3rem 0.3rem .4rem 0.3rem;
+			background: #fff;
+		}
+
+		/*自定义*/
+			.freebox1_header{
+				margin-bottom: .2rem;
+			}
+
+		/*描述内容*/
+		.freebox1_body{
+			height: 1.2rem;
+			padding: .16rem .18rem;
+			margin-bottom: .2rem;
+		}
+		.freebox1_body_inner{
+			border-color: transparent;
+			background-color: transparent;
+			width: 100%;
+			height: .86rem;
+			resize: none;
+			text-indent: .2rem;
+			font-size: .28rem;
+			color: #999;
+			outline-color: #ff6699;
+		}
+
+		/*上传图片*/
+			.freebox1_upload_img{
+				height: 1.1rem;
+			}
+			.freebox1_upload_img_inner{
+				width: 1.1rem;
+				height: 100%;
+				background: #f2f2f2 url('../img/canmer.png') center center / 70% 70% no-repeat;
+			}
+			.freebox1_upload_img_inner input{
+				width: 100%;
+				height: 100%;
+				opacity: 0;
+				filter: alpha(opacity: 0);
+			}
+			.freebox1_upload_img_inner input:hover{
+				cursor: pointer;
+			}
+
+	/*底部长按钮 --------------------------------------------------------------*/
+		.footer_long_btn_box{
+			padding: .34rem 1.2rem .56rem 1.2rem;
+		}
+		.footer_long_btn_real{
+			display: block;
+			box-sizing: border-box;
+			border: 2px solid #999;
+			border-radius: .45rem;
+			height: .9rem;
+			line-height: .86rem;
+			text-align: center;
+			font-size: .32rem;
+			color: #999;
+		}
+
+/*浏览历史 --------------------------------------------------------*/
+	.followed_woods_box{
+		padding: .3rem;
+		border-bottom: 1px solid #e5e5e5;
+		background: #fff;
+	}
+	.followed_woods:nth-last-of-type(1) .followed_woods_box{
+		border-bottom: none;
+	}
+	.followed_woods_box_inner{
+		height: 1.1rem;
+	}
+	.followed_woods_box_inner a{
+		position: relative;
+		display: block;
+		height: 100%;
+		color: #333;
+	}
+
+	/*图片*/
+		.followed_woods_logo{
+			padding-right: .2rem;
+		}
+		.followed_woods_logo img{
+			width: 1.1rem;
+		}
+
+	/*文字*/
+		.followed_woods_txt h4{
+			width: 5.5rem;
+			font-size: .24rem;
+			letter-spacing: .02rem;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+		.followed_woods_price{
+			font-size: .24rem;
+			letter-spacing: .01rem;
+			color: #ff6699;
+		}
+
+	/*删除*/
+		.followed_woods_del{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: .96rem;
+			height: .28rem;
+			line-height: .28rem;
+			text-align: right;
+			font-size: .26rem;
+			color: #bbb;
+		}
+		.followed_woods_del_img{
+			position: absolute;
+			top: -.01rem;
+			left:0;
+		}
+		.followed_woods_del_img img{
+			height: .27rem;
+		}

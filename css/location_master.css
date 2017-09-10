@@ -1,0 +1,391 @@
+body{
+		padding: 0;
+	}
+@media(min-width: 376px){
+	body{
+		padding: 0;
+	}
+}
+/*已有地址 ---------------------------------------------*/
+	.my_location_box{
+		padding: 15px;
+		border-bottom: 1px solid #eee;
+		background: #fff;
+	}
+
+	/*客人姓名和电话*/
+		.costom_box{
+			font-size: 1.2rem;
+			margin-bottom: 10px;
+		}
+		.costom_tel{
+			margin-left: 15px;
+		}
+
+	/*地址框*/
+		.location_box{
+			margin: 0 0 10px 0;
+			font-size: 1.1rem;
+			color: #666;
+		}
+		.default_location_mark{
+			display: inline-block;
+			padding: 1px 10px;
+			border-radius: 25px;
+			text-align: center;
+			color: #fff;
+			background: #f15352;
+		}
+		.loc_sheng , .loc_city , .loc_town{
+			padding-right: 3px;
+		}
+
+		@media (min-width: 375px){
+			/*客人姓名和电话*/
+				.costom_box{
+					font-size: 1.2rem;
+				}
+
+			/*地址框*/
+				.location_box{
+					font-size: 1.1rem;
+				}
+				.default_location_mark{
+					padding: 1px 14px;
+					border-radius: 27px;
+				}
+				.loc_sheng , .loc_city , .loc_town{
+					padding-right: 8px;
+				}
+		}
+
+		@media (min-width: 414px){
+			.pesonal_box_inner{
+				padding: 30px;
+			}
+			/*客人姓名和电话*/
+				.costom_box{
+					font-size: 1.4rem;
+				}
+
+			/*地址框*/
+				.location_box{
+					font-size: 1.3rem;
+				}
+				.default_location_mark{
+					padding: 1px 14px;
+					border-radius: 27px;
+				}
+				.loc_sheng , .loc_city , .loc_town{
+					padding-right: 8px;
+				}
+		}
+
+		@media (min-width: 600px){
+			.pesonal_box_inner{
+				padding: 35px;
+			}
+			/*客人姓名和电话*/
+				.costom_box{
+					font-size: 1.7rem;
+					margin-bottom: 15px;
+				}
+
+			/*地址框*/
+				.location_box{
+					font-size: 1.5rem;
+				}
+				.default_location_mark{
+					padding: 1px 14px;
+					border-radius: 39px;
+				}
+				.loc_sheng , .loc_city , .loc_town{
+					padding-right: 10px;
+				}
+		}
+
+		@media (min-width: 768px){
+			.pesonal_box_inner{
+				padding: 45px;
+			}
+			/*客人姓名和电话*/
+				.costom_box{
+					font-size: 1.7rem;
+					margin-bottom: 25px;
+				}
+
+			/*地址框*/
+				.location_box{
+					font-size: 1.5rem;
+				}
+				.default_location_mark{
+					padding: 1px 18px;
+					border-radius: 77px;
+				}
+				.loc_sheng , .loc_city , .loc_town{
+					padding-right: 12px;
+				}
+		}
+
+		@media (min-width: 992px){
+			.pesonal_box_inner{
+				padding: 50px;
+			}
+			/*客人姓名和电话*/
+				.costom_box{
+					font-size: 2rem;
+					margin-bottom: 25px;
+				}
+
+			/*地址框*/
+				.location_box{
+					font-size: 1.8rem;
+				}
+				.default_location_mark{
+					padding: 1px 18px;
+					border-radius: 77px;
+				}
+				.loc_sheng , .loc_city , .loc_town{
+					padding-right: 12px;
+				}
+		}
+
+		@media (min-width: 1200px){
+			.pesonal_box_inner{
+				padding: 60px;
+			}
+			/*客人姓名和电话*/
+				.costom_box{
+					font-size: 2rem;
+					margin-bottom: 30px;
+				}
+
+			/*地址框*/
+				.location_box{
+					font-size: 1.8rem;
+				}
+				.default_location_mark{
+					padding: 1px 18px;
+					border-radius: 77px;
+				}
+				.loc_sheng , .loc_city , .loc_town{
+					padding-right: 15px;
+				}
+		}
+
+	/*编辑地址工具栏*/
+		.location_tools{
+			margin: 0;
+			padding: 15px;
+			font-size: 1.1rem;
+		}
+		.location_direct_box{
+			margin-right: 10px;
+			color: #333;
+		}
+		.location_direct_box , .location_del_box{
+			text-align: right;
+		}
+		.location_direct_box img , .location_del_box img{
+			margin-top: 3px;
+			margin-right: -10px;
+			width: 33%;
+		}
+		.check_default_loc{
+			display: inline-block;
+			width: 40%;
+		}
+		.check_default_loc span{
+			float: left;
+			margin-right: 5px;
+			width: 21px;
+			height: 21px;
+			border-radius: 21px;
+			background: #bbb;
+			background-size: 21px 21px !important;
+		}
+		.check_default_loc span input{
+			filter: alpha( opacity: 0 );
+			opacity: 0;
+			margin: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		@media (min-width: 414px){
+			.my_location_box{
+				padding: 15px;
+			}
+			.location_tools{
+				padding: 15px;
+				font-size: 1.3rem;
+			}
+			.check_default_loc span{
+				background-size: 25px 25px !important;
+			}
+			.location_direct_box{
+				margin-right: 10px;
+			}
+			.location_direct_box , .location_del_box{
+				text-align: left;
+			}
+			.location_direct_box img , .location_del_box img{
+				margin-top: 3px;
+				margin-right: 4px;
+				width: 30%;
+			}
+		}
+
+		@media (min-width: 600px){
+			.my_location_box{
+				padding: 20px;
+			}
+			.location_tools{
+				padding: 15px;
+				font-size: 1.5rem;
+			}
+			.check_default_loc span{
+				background-size: 30px 30px !important;
+			}
+			.location_direct_box{
+				margin-right: 25px;
+			}
+			.location_direct_box img , .location_del_box img{
+				margin-top: 5px;
+				margin-right: 4px;
+				width: 32%;
+			}
+		}
+
+		@media (min-width: 768px){
+			.my_location_box{
+				padding: 25px;
+			}
+			.location_tools{
+				padding: 15px;
+				font-size: 1.6rem;
+			}
+			.check_default_loc span{
+				background-size: 34px 34px !important;
+			}
+			.location_direct_box{
+				margin-right: 30px;
+			}
+			.location_direct_box img , .location_del_box img{
+				margin-top: 7px;
+				margin-right: 4px;
+				width: 32%;
+			}
+		}
+
+		@media (min-width: 992px){
+			.my_location_box{
+				padding: 25px;
+			}
+			.location_tools{
+				padding: 15px;
+				font-size: 1.8rem;
+			}
+			.check_default_loc span{
+				background-size: 41px 41px !important;
+			}
+			.location_direct_box{
+				margin-right: 40px;
+			}
+			.location_direct_box img , .location_del_box img{
+				margin-top: 8px;
+				margin-right: 4px;
+				width: 32%;
+			}
+		}
+
+		@media (min-width: 1200px){
+			.my_location_box{
+				padding: 30px;
+			}
+			.location_tools{
+				padding: 15px;
+				font-size: 1.8rem;
+			}
+			.check_default_loc span{
+				background-size: 49px 49px !important;
+			}
+			.location_direct_box img , .location_del_box img{
+				margin-top: 11px;
+				margin-right: 6px;
+				width: 29%;
+			}
+		}
+
+/*添加新地址 ---------------------------------------------*/
+	.build_new_adress{
+		padding: 50px;
+		text-align: center;
+		font-size: 1.2rem;
+		color: rgb(255,102,156);
+	}
+	.build_new_adress_inner{
+		padding: 9px 0;
+		border: 1px solid rgb(255,102,156);
+		border-radius: 40px;
+		background: #fff;
+	}
+
+	@media (min-width: 414px){
+		.build_new_adress{
+			padding: 70px;
+			padding-top: 60px;
+			font-size: 1.4rem;
+		}
+		.build_new_adress_inner{
+			padding: 9px 0;
+			border-radius: 40px;
+		}
+	}
+
+	@media (min-width: 600px){
+		.build_new_adress{
+			padding: 100px;
+			padding-top: 80px;
+			font-size: 1.7rem;
+		}
+		.build_new_adress_inner{
+			padding: 14px 0;
+			border-radius: 63px;
+		}
+	}
+
+	@media (min-width: 768px){
+		.build_new_adress{
+			padding: 130px;
+			padding-top: 110px;
+			font-size: 1.7rem;
+		}
+		.build_new_adress_inner{
+			padding: 14px 0;
+			border-radius: 63px;
+		}
+	}
+
+	@media (min-width: 992px){
+		.build_new_adress{
+			padding: 160px;
+			padding-top: 140px;
+			font-size: 2em;
+		}
+		.build_new_adress_inner{
+			padding: 19px 0;
+			border-radius: 65px;
+		}
+	}
+
+	@media (min-width: 1200px){
+		.build_new_adress{
+			padding: 190px;
+			font-size: 2em;
+		}
+		.build_new_adress_inner{
+			padding: 19px 0;
+			border-radius: 65px;
+		}
+	}

@@ -1,0 +1,82 @@
+/*我的积分 --------------------------------------------------------*/
+	.my_jifen_main{
+		padding-bottom: 3.65rem;
+	}
+	.my_jifen_header{
+		margin-bottom: .3rem;
+	}
+	.my_jifen_header_box{
+		position: relative;
+		height: 4.27rem;
+		background: #fff;
+	}
+
+	/*头部*/
+		.my_jifen_header_box_inner{
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin:auto auto;
+			width: 2.6rem;
+			height: 2.6rem;
+			border: .04rem solid #f99c2f;
+			border-radius: 1.3rem;
+			padding: .05rem;
+		}
+		.my_jifen_show{
+			width: 100%;
+			height: 100%;
+			border-radius: 1.21rem;
+			padding: .76rem .7rem;
+			background-color: #f99c2f;
+		}
+		.my_jifen_show_title{
+			margin-bottom: .08rem;
+			text-align: center;
+			font-size: .3rem;
+			color: #fff;
+		}
+		.my_jifen_show_num{
+			text-align: center;
+			font-size: .44rem;
+			color: #fff;
+		}
+
+	/*积分记录*/
+		.my_jifen_body_box{
+			padding: 0 .3rem;
+			background: #f2f2f2;
+		}
+		.my_jifen_body_box_item{
+			height: 1.2rem;
+			padding: .28rem .24rem;
+			border-bottom: 1px solid #e5e5e5;
+			background: #fff;
+		}
+		.my_jifen_body_box_item a{
+			color: #333;
+		}
+		.my_jifen_body_box_item:nth-last-of-type(1){
+			border-bottom: none;
+		}
+
+		/*积分增加，减少*/
+			.my_jifen_body_box_item_get , .my_jifen_body_box_item_pay{
+				height: .3rem;
+				margin-bottom: .09rem;
+				font-size: .28rem;
+			}
+			.my_jifen_body_box_item_get>span:nth-of-type(1)  , .my_jifen_body_box_item_pay>span:nth-of-type(1){
+				float: left;
+			}
+			.my_jifen_body_box_item_get>span:nth-of-type(2)  , .my_jifen_body_box_item_pay>span:nth-of-type(2){
+				float: right;
+				color: #999;
+			}
+			.my_jifen_body_box_item_date{
+				margin-bottom: 0;
+				font-size: .2rem;
+				color: #999;
+			}

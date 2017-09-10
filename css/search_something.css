@@ -1,0 +1,285 @@
+body{
+	padding: 0;
+	padding-top: 101px;
+	background-color: rgb(242,242,242);
+}
+@media (min-width: 768px){
+	body{
+		padding-top: 95px;
+	}
+}
+/*头部工具集 ---------------------------------------------*/
+.header_container{
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+}
+
+/*搜索工具栏 ---------------------------------------------*/
+	.header{
+		width: 100%;
+		max-height: 54px
+	}
+	.header_inner{
+		position: relative;
+		text-align: center;
+	}
+	.header_inner .row{
+		/*max-height: 54px*/
+	}
+	.search_box{
+		background: #fff;
+		max-height: 54px
+	}
+
+	/*搜索框 ---------------------------------------------*/
+		.search_inner{
+			/*max-height: 54px;*/
+			padding: 0 10px;
+		}
+		@media(min-width: 415px){
+			.search_inner{
+				padding: 0 15px;
+			}
+		}
+		.search_bar{
+			display: inline-block;
+			padding: 2px;
+			width: 100%;
+		}
+		.search_bar>.form-group , .search_bar>.form-group>.input-group{
+			width: 100%;
+		}
+		.search_img{
+			width: 5% !important;
+		    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+			box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+			border-radius: 17px;
+			border-color: #f2f2f2;
+			background-color: #f2f2f2;
+		}
+		.search_img>img{
+			max-height: 20px;
+		}
+		.search_item{
+			border-radius: 17px;
+			border-color: #f2f2f2;
+			font-size: .9rem;
+			color: #333;
+			background-color: #f2f2f2;
+		}
+
+	/*按钮---------------------------------------------*/
+		.search_btn_inner{
+			position: relative;
+			margin-bottom: 0;
+			padding: 0;
+			height: 100%;
+		}
+		.search_btn_bar{
+			position: absolute;
+			top: 11px;
+			left: -10px;
+			width: 100%;
+			height: 100% !important;
+		}
+		.search_btn_bar button{
+			padding: 6px 14px;
+			border-radius: 34px;
+			color: #fcfcfc;
+			border-color: rgb(255,102,156);
+			background: rgb(255,102,156);
+		}
+		@media(min-width: 321px){
+			.search_btn_bar{
+				left: -5px;
+			}
+			.search_btn_bar button{
+				padding: 6px 18px;
+			}
+		}
+
+/*筛选工具栏 ---------------------------------------------*/
+	.screen_box{
+		background: #fff;
+	}
+	.screen_box li{
+		border: 0 !important;
+		margin: 0 !important;
+	}
+	.screen_box a{
+		text-align: center !important;
+		color: #bbbbbb;
+	}
+	.screen_box .active a{
+		color: #bbbbbb !important;
+		background-color: #fff !important;
+	}
+	
+	.price_box a span{
+		position: relative;
+	}
+	.price_mark_up{
+		position: relative;
+		top: -3px;
+	}
+	.price_mark_down{
+		position: absolute;
+		right:0;
+		top: 8px;
+	}
+
+	.active .screen_name{
+		color: rgb(255,102,156);
+	}
+
+	/*下拉菜单*/
+	.screen_box .screen_select_box{
+		left: 30px;
+		min-width: 0;
+		border: none;
+		box-shadow: none;
+		background: transparent;
+	}
+	.screen_box .screen_select_box li{
+		width: 100px;
+	}
+	.screen_box .screen_select_box li a{
+		padding: 10px 10px;
+		margin-bottom: 2px;
+		text-align: left !important;
+		color: #bbbbbb;
+		background: #fff;
+	}
+	.list_mark{
+		position: absolute;
+		top: -4px;
+		left: 4px;
+		color: #fff;
+	}
+	@media(min-width: 768px){
+		.screen_box .screen_select_box li{
+			width: 180px;
+		}
+		.screen_box .screen_select_box li a{
+			padding: 15px 10px;
+		}
+	}
+	@media(min-width: 992px){
+		.screen_box .screen_select_box li{
+			width: 300px;
+		}
+	}
+
+/*猜你喜欢 ---------------------------------------------*/
+	
+	/*内容*/
+		.guess_items_box{
+			margin-top: 15px;
+		}
+		.guess_items_box .row{
+			margin-bottom: 10px;
+		}
+		@media(min-width: 321px){
+			.guess_items_box .row{
+				margin-bottom: 10px;
+			}
+		}
+		@media(min-width: 415px){
+			.guess_items_box .row{
+				margin-bottom: 20px;
+			}
+		}
+		.guess_item_box{
+			height: 100%;
+			background: #fff;
+		}
+		.guess_items_left{
+			padding-right: 5px;
+		}
+		.guess_items_right{
+			padding-left: 5px;
+		}
+		.guess_item_box .thumbnail{
+			padding: 3px 2px 2px 2px;
+			margin-bottom: 2px;
+			border-color: transparent;
+		}
+		.guess_item_box .thumbnail img{
+			width: 100%;
+		}
+		.guess_item_box h4{
+			padding: 0 3px;
+			font-size: 1.0rem;
+			color: #333;
+		}
+		.guess_item_box p{
+			margin-top: 2px;
+			margin-bottom: 2px;
+			padding: 0 4px;
+			font-size: 1.1rem;
+			color: rgb(255,102,156);
+		}
+		@media(min-width: 335px){
+			.guess_item_box .thumbnail{
+				padding: 4px 3px 3px 3px;
+				margin-bottom: 3px;
+			}
+			.guess_item_box h4{
+				padding: 0 3px;
+				font-size: 1.1rem;
+			}
+			.guess_item_box p{
+				margin-top: 3px;
+				margin-bottom: 3px;
+				padding: 0 4px;
+				font-size: 1.3rem;
+			}
+		}
+		@media(min-width: 376px){
+			.guess_item_box .thumbnail{
+				padding: 6px 4px 4px 4px;
+				margin-bottom: 6px;
+			}
+			.guess_item_box h4{
+				padding: 0 3px;
+				font-size: 1.2rem;
+			}
+			.guess_item_box p{
+				margin-top: 6px;
+				margin-bottom: 6px;
+				padding: 0 4px;
+				font-size: 1.4rem;
+			}
+		}
+		@media(min-width: 586px){
+			.guess_item_box .thumbnail{
+				padding: 8px 6px 6px 6px;
+				margin-bottom: 15px;
+			}
+			.guess_item_box h4{
+				padding: 0 4px;
+				font-size: 1.4rem;
+			}
+			.guess_item_box p{
+				margin-top: 10px;
+				padding: 0 6px;
+				font-size: 1.6rem;
+			}
+		}
+		@media(min-width: 768px){
+			.guess_item_box .thumbnail{
+				padding: 8px 6px 6px 6px;
+				margin-bottom: 15px;
+			}
+			.guess_item_box h4{
+				padding: 0 4px;
+				font-size: 2.5rem;
+			}
+			.guess_item_box p{
+				margin-top: 10px;
+				padding: 0 6px;
+				font-size: 2.6rem;
+			}
+		}

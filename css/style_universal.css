@@ -1,0 +1,43 @@
+/*字体预处理*/
+	html , body{
+		font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+		font-size: 14px;
+	}
+	@media(min-width: 768px){
+		html , body{
+		font-size: 15px;
+		}
+	}
+	@media(min-width: 992px){
+		html , body{
+		font-size: 16px;
+		}
+	}
+	@media(min-width: 1200px){
+		html , body{
+		font-size: 18px;
+		}
+	}
+
+/*尺寸预处理*/
+	div , ul , ol , li , h1 , h2 , h3 , h4 , h5 , h6 , form{
+		padding: 0;
+		margin: 0;
+	}
+
+	body{
+		padding: 54px 0 57px 0;
+		background: rgb(242,242,242);
+	}
+
+	a{
+		color: rgb(255,102,156);
+	}
+
+
+	@media(min-width: 376px){
+		body{
+			padding-bottom: 83px;
+			background: rgb(242,242,242);
+		}
+	}

@@ -1,0 +1,19 @@
+/*分销说明 --------------------------------------------------------*/
+	.fenxiao_explain_box{
+		padding: .4rem .3rem;
+		background: #fff;
+	}
+	.fenxiao_explain_question{
+		margin-bottom: .62rem;
+	}
+	.fenxiao_explain_question_Q{
+		letter-spacing: .02rem;
+		font-size: .32rem;
+		margin-bottom: .14rem;
+	}
+	.fenxiao_explain_question_A{
+		letter-spacing: .02rem;
+		font-size: .28rem;
+		color: #999999;
+		margin-bottom: 0;
+	}

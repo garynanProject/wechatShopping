@@ -1,0 +1,173 @@
+body{
+		padding: 0;
+	}
+@media(min-width: 376px){
+	body{
+		padding: 0;
+	}
+}
+/*新地址信息 ---------------------------------------------*/
+	.the_new_adress_box_item{
+		border: none;
+		border-bottom: 1px solid #eee;
+		border-radius: none;
+		box-shadow: none;
+		background: #fff;
+	}
+	.the_new_adress_box_item input{
+		border: none;
+		box-shadow: none;
+	}	
+
+	/* 地址大范围 */
+	.head_adress_box{
+		padding: 13px 12px;
+		padding-left: 24px !important;
+	}
+	.head_adress_tag{
+		color: #bbb;
+	}
+	.head_adress{
+		margin: 0;
+	}
+	.head_adress li{
+		background-color: rgb(242,242,242) ;
+	}
+	.head_adress li:hover{
+		background: #fff;
+	}
+	.head_adress .active{
+		border: none;
+		background: rgb(255,102,156);
+	}
+	.head_adress .active:hover{
+		background: rgb(255,102,156);
+	}
+	
+	@media (min-width: 414px){
+		.the_new_adress_box_item{
+			padding: 12px 12px;
+		}
+		.the_new_adress_box_item , .the_new_adress_box_item input{
+			font-size: 1.2rem;
+		}
+		.head_adress_box{
+			padding: 17px;
+		}
+	}
+	@media (min-width: 600px){
+		.the_new_adress_box_item{
+			padding: 15px 12px;
+		}
+		.the_new_adress_box_item , .the_new_adress_box_item input{
+			font-size: 1.4rem;
+		}
+		.head_adress_box{
+			padding: 18px;
+		}
+		.head_adress li{
+			font-size: 1.2rem;
+		}
+	}
+	@media (min-width: 992px){
+		.the_new_adress_box_item{
+			padding: 18px 12px;
+		}
+		.the_new_adress_box_item , .the_new_adress_box_item input{
+			font-size: 1.6rem;
+		}
+		.head_adress_box{
+			padding: 17px;
+		}
+		.head_adress li{
+			font-size: 1.4rem;
+		}
+	}
+	@media (min-width: 1200px){
+		.the_new_adress_box_item{
+			padding: 21px 12px;
+		}
+		.the_new_adress_box_item , .the_new_adress_box_item input{
+			font-size: 1.8rem;
+		}
+		.head_adress_box{
+			padding: 15px;
+		}
+		.head_adress li{
+			font-size: 1.6rem;
+		}
+	}
+
+/*添加新地址 ---------------------------------------------*/
+	.save_new_adress{
+		padding: 50px;
+		text-align: center;
+		font-size: 1.2rem;
+		letter-spacing: 5px;
+		color: rgb(255,102,156);
+	}
+	.save_new_adress_inner{
+		padding: 9px 0;
+		border: 1px solid rgb(255,102,156);
+		border-radius: 40px;
+		background: #fff;
+	}
+
+	@media (min-width: 414px){
+		.save_new_adress{
+			padding: 70px;
+			padding-top: 60px;
+			font-size: 1.4rem;
+		}
+		.save_new_adress_inner{
+			padding: 9px 0;
+			border-radius: 40px;
+		}
+	}
+
+	@media (min-width: 600px){
+		.save_new_adress{
+			padding: 100px;
+			padding-top: 80px;
+			font-size: 1.7rem;
+		}
+		.save_new_adress_inner{
+			padding: 14px 0;
+			border-radius: 63px;
+		}
+	}
+
+	@media (min-width: 768px){
+		.save_new_adress{
+			padding: 130px;
+			padding-top: 110px;
+			font-size: 1.7rem;
+		}
+		.save_new_adress_inner{
+			padding: 14px 0;
+			border-radius: 63px;
+		}
+	}
+
+	@media (min-width: 992px){
+		.save_new_adress{
+			padding: 160px;
+			padding-top: 140px;
+			font-size: 2em;
+		}
+		.save_new_adress_inner{
+			padding: 19px 0;
+			border-radius: 65px;
+		}
+	}
+
+	@media (min-width: 1200px){
+		.save_new_adress{
+			padding: 190px;
+			font-size: 2em;
+		}
+		.save_new_adress_inner{
+			padding: 19px 0;
+			border-radius: 65px;
+		}
+	}

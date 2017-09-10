@@ -1,0 +1,530 @@
+/*商品详情 ---------------------------------------------*/
+	.woods_details_main{
+		position: relative;
+		padding-bottom: .98rem;
+	}
+
+	/*轮播图*/
+		.woods_details_carousel{
+			position: relative;
+			padding: 0;
+		}
+
+		/*home键*/
+			.woods_details_home{
+				position: absolute;
+				top: .34rem;
+				left: .3rem;
+				z-index: 1000;
+				width: .8rem;
+				height: .8rem;
+				line-height: .8rem;
+				text-align: center;
+				border-radius: .8rem;
+				background-color: rgba(0,0,0,.5);
+			}
+			.woods_details_home img{
+				width: .44rem;
+			}
+			
+		.woods_details_carousel_inner img{
+			width: 100%;
+		}
+
+		.woods_details_carousel .swiper-pagination{
+			bottom: .08rem;
+		}
+		.woods_details_carousel .swiper-pagination-bullet{
+			width: .12rem;
+			height: .12rem;
+			margin: 0 .05rem !important;
+			border: none;
+			background: #fff;
+			opacity: 1;
+			filter: alpha( opacity: 100 );
+		}
+		.woods_details_carousel .swiper-pagination-bullet-active{
+			position: relative;
+			top: .03rem;
+			width: .2rem;
+			height: .2rem;
+			border: .02rem solid #fff;
+			background: transparent;
+		}
+
+	/*描述框*/
+		.woods_details_headtxt{
+			padding: .3rem ;
+			margin-bottom: .22rem;
+			height: 2.0rem;
+			background: #fff;
+		}
+		.woods_details_headtxt_inner h3{
+			letter-spacing: .02rem;
+			font-size: .28rem;
+			line-height: .4rem;
+			color: #333;
+		}
+		.woods_details_headtxt_inner h4{
+			margin-top: .15rem;
+			font-size: .38rem;
+			color: #ff6699;
+		}
+		.woods_details_headtxt_inner h4 small{
+			margin-right: .08rem;
+			font-size: .3rem;
+			color: #ff6699;
+		}
+		.woods_details_headtxt_inner h4 del{
+			margin-left: .15rem;
+			font-size: .24rem;
+			color: #bbb;
+		}
+
+	/*woods_details_selection*/
+		.woods_details_selection{
+			padding: .3rem;
+			margin-bottom: .22rem;
+			height: .9rem;
+			background: #fff;
+		}
+		.woods_details_selection_inner{
+			position: relative;
+			height: 100%;
+			line-height: .3rem;
+			font-size: .26rem;
+			color: #333;
+		}
+		.woods_details_selection_link{
+			position: absolute;
+			right: 0;
+			height: 100%;
+			line-height: .3rem;
+			color: #bfbfbf;
+		}
+
+	/*进入商店*/
+		.woods_details_tostore{
+			padding: .3rem;
+			margin-bottom: .22rem;
+			height: 1.98rem;
+			background: #fff;
+		}
+		.woods_details_tostore_inner{
+			position: relative;
+			height: 100%;
+		}
+		/*头像*/
+			.woods_details_tostore_headimg{
+				position: relative;
+				float: left;
+				width: 1.2rem;
+				height: 1.2rem;
+				margin-right: .18rem;
+			}
+			.woods_details_tostore_headimg img{
+				width: 100%;
+			}
+			.woods_details_tostore_headimg span{
+				position: absolute;
+				bottom: -.15rem;
+				right: 0;
+				width: .72rem;
+				line-height: .22rem;
+				padding: .08rem .1rem .08rem .16rem;
+				border-radius: .38rem 0 0 .38rem;
+				text-align: center;
+				font-size: .16rem;
+				color: #fff;
+				background: #faba1a;
+			}
+
+		/*店名*/
+			.woods_details_tostore_name{
+				float: left;
+				height: 100%;
+				width: 3rem;
+				padding-top: .12rem;
+			}
+			.woods_details_tostore_name h3 , .woods_details_tostore_name h4{
+				font-size: .24rem;
+				margin-bottom: .16rem;
+			}
+			.woods_details_tostore_name h4{
+				color: #bbb;
+			}
+
+		/*进入店铺按钮*/
+			.woods_details_tostore_btn{
+				position: absolute;
+				top: .12rem;
+				right: 0;
+				width: 2.35rem;
+				height: .64rem;
+				border: .02rem solid #ff6699;
+				border-radius: .64rem;
+				line-height: .6rem;
+				text-align: center;
+				font-size: .28rem;
+			}
+
+		/*查看全部商品*/
+			.woods_details_tostore_toall{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				line-height: .28rem;
+				border-bottom: 1px solid #ccc;
+				font-size: .24rem;
+				color: #cccccc;
+			}
+
+	/*更多*/
+		.woods_details_tomore{
+			padding: 0 .3rem;
+			height: .54rem;
+			margin-bottom: .22rem;
+		}
+		.woods_details_tomore_inner{
+			position: relative;
+			height: 100%;
+		}
+		.woods_details_tomore_line{
+			position: absolute;
+			top: 50%;
+			width: 100%;
+			height: .02rem;
+			background-color: #dddddd;
+		}
+		.woods_details_tomore_txt{
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			padding: 0 .24rem;
+			width: 2.97rem;
+			line-height: .54rem;
+			text-align: center;
+			font-size: .26rem;
+			color: #c9c9c9;
+			background: #f2f2f2;
+		}
+
+		@media( max-width:414px ){
+			.woods_details_tomore_txt{
+				width: 3.25rem;
+			}
+		}
+
+	/*详细内容*/
+		.woods_details_themore{
+			padding: 0;
+		}
+		.woods_details_themore_inner img{
+			width: 100%;
+		}
+
+	/*工具栏*/
+		.woods_details_tools{
+			position: fixed;
+			bottom: 0;
+			z-index: 1100;
+			width: 100%;
+			
+		}
+		/*隐藏部分*/
+			.woods_details_tools_hidden{
+				display: none;
+				position: fixed;
+				bottom: -9.62rem;
+				left: 0;
+				right: 0;
+				z-index: 1501;
+				margin: 0 auto;
+				width: 100%;
+				max-width: 1171px;
+				height: 8.72rem;
+				background: #fff;
+			}
+			.woods_details_tools_hidden_style{
+				height: 7.42rem;
+				padding: .3rem .3rem 0 .3rem;
+			}
+			.woods_details_tools_hidden_style_box{
+				position: relative;
+			}
+			/*图片*/
+			.woods_details_tools_hidden_style_img{
+				position: absolute;
+				top: -.9rem;
+				left: 0;
+				width: 2.4rem;
+				height: 2.4rem;
+			}
+			.woods_details_tools_hidden_style_img img{
+				width: 100%;
+				height: 100%;
+			}
+			/*叉*/
+			.woods_details_tools_hidden_style_x{
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: .34rem;
+				height: .34rem;
+			}
+			.woods_details_tools_hidden_style_x img{
+				width: 100%;
+				height: 100%;
+			}
+
+			/*top*/
+			.woods_details_tools_hidden_style_top{
+				height: 1.52rem;
+				padding-left: 2.68rem;
+			}
+			.woods_details_tools_hidden_style_top_inner{
+				height: 100%;
+			}
+			.woods_details_tools_hidden_style_top_inner h3{
+				margin-bottom: .28rem;
+				font-size: .36rem;
+				color: #ff6699;
+			}
+			.woods_details_tools_hidden_style_top_inner h3 small{
+				font-size: .28rem;
+				color: #ff6699;
+			}
+			.woods_details_tools_hidden_style_top_inner h4{
+				margin-bottom: .16rem;
+				font-size: .26rem;
+				font-weight: lighter;
+				color: #333;
+			}
+			.woods_details_tools_hidden_style_top_inner h5{
+				font-size: .26rem;
+				font-weight: lighter;
+				color: #333;
+			}
+			.woods_details_tools_hidden_style_top_inner h5 span{
+				margin-left: .2rem;
+			}
+
+			/*txt*/
+				.woods_details_tools_hidden_style_txt{
+					float: left;
+					width: 100%;
+					padding: .48rem 0 .5rem 0;
+					border-bottom: .02rem solid #f7f7f7;
+				}
+				.woods_details_tools_hidden_style_txt_inner{
+					float: left;
+					width: 100%;
+				}
+				/*item*/
+					.woods_details_tools_hidden_style_txt_item{
+						float: left;
+						width: 100%;
+						margin-bottom: .31rem;
+					}
+					.woods_details_tools_hidden_style_txt_item:nth-last-of-type(1){
+						margin-bottom: 0;
+					}
+					.woods_details_tools_hidden_style_txt_item h3{
+						line-height: .32rem;
+						font-size: .32rem;
+						margin-bottom: .22rem;
+					}
+					.woods_details_tools_hidden_style_txt_item ul{
+						float: left;
+						width: 100%;
+					}
+					.woods_details_tools_hidden_style_txt_item ul li{
+						float: left;
+						list-style: none;
+						width: 20%;
+						height: .6rem;
+						padding: 0 .15rem;
+						margin-bottom: .2rem;
+					}
+					.woods_details_tools_hidden_style_txt_item ul li a{
+						display: inline-block;
+						width: 100%;
+						height: 100%;
+						border: .02rem solid #ccc;
+						border-radius: .6rem;
+						text-align: center;
+						line-height: .56rem;
+						font-size: .26rem;
+						color:#ccc;
+					}
+					.woods_details_tools_hidden_style_txt_item .active a{
+						border-color: #ff6699;
+						color: #ff6699;
+					}
+
+			/*counter*/
+				.woods_details_tools_hidden_style_counter{
+					position: relative;
+					height: 1.6rem;
+					padding-left: 3.8rem;
+				}
+				.woods_details_tools_hidden_style_counter h3{
+					position: absolute;
+					top: .56rem;
+					left: 0;
+					font-size: .32rem;
+				}
+				.woods_details_tools_hidden_style_counter_inner{
+					position: relative;
+					height: 100%;
+				}
+				.woods_details_tools_hidden_style_counter_item{
+					position: absolute;
+					right: 0;
+					top: .38rem;
+					width: 3rem;
+					height: .7rem;
+					font-size: 0;
+				}
+				.woods_details_tools_hidden_style_counter_item span{
+					display: inline-block;
+					width: .7rem;
+					height: .7rem;
+				}
+				.woods_details_tools_hidden_style_counter_item span img{
+					width: 100%;
+					height: 100%;
+				}
+				.woods_details_tools_hidden_style_counter_item input{
+					position: relative;
+					top: .08rem;
+					height: .7rem;
+					width: 1.2rem;
+					border: none;
+					outline: none;
+					margin: 0 .2rem;
+					text-align: center;
+					line-height: .7rem;
+					font-size: .28rem;
+					background-color: #f7f7f7;
+				}
+
+			/*确定按钮*/
+				.woods_details_tools_hidden_ok_btn{
+					height: 1.3rem;
+					padding: .3rem 1.2rem;
+					background-color: #f7f7f7;
+				}
+				.woods_details_tools_hidden_ok_btn a{
+					display: block;
+					height: 100%;
+					border-radius: .7rem; 
+					background-color: #fff;
+					text-align: center;
+					line-height: .7rem;
+					font-size: .3rem;
+				}
+		/**/
+		.woods_details_tools_inner{
+			height: .98rem;
+			margin: 0 auto;
+		}
+		@media (min-width: 768px){
+			.woods_details_tools_inner{
+				max-width: 751px
+			}
+		}
+		@media (min-width: 992px){
+			.woods_details_tools_inner{
+				max-width: 971px
+			}
+		}
+		@media (min-width: 1200px){
+			.woods_details_tools_inner{
+				max-width: 1171px
+			}
+		}
+		.woods_details_tools_star{
+			float: left;
+			width: 13%;
+			height: 100%;
+			padding-top: .14rem;
+			padding-bottom: .16rem;
+			text-align: center;
+			background-color: #fff;
+		}
+		.woods_details_tools_star img{
+			height: .4rem;
+			margin-bottom: .05rem;
+		}
+		.woods_details_tools_star p{
+			margin: 0;
+			font-size: .2rem;
+			color: #929192;
+		}
+		/**/
+		.woods_details_tools_item{
+			float: left;
+			width: 34%;
+			height: 100%;
+			line-height: .98rem;
+			text-align: center;
+			font-size: .3rem;
+			font-weight: lighter;
+			color: #fff;
+		}
+		.woods_details_tools_item:nth-of-type(2){
+			background-color: #fd95b8;
+		}
+		.woods_details_tools_item:nth-of-type(3){
+			background-color: #ff6699;
+		}
+		/**/
+		.woods_details_tools_shopcart{
+			float: left;
+			width: 19%;
+			height: 100%;
+			padding-top: .14rem;
+			padding-bottom: .16rem;
+			text-align: center;
+			background: #fff;
+		}
+		.woods_details_tools_shopcart img{
+			height: .35rem;
+			margin-bottom: .05rem;
+		}
+		.woods_details_tools_shopcart p{
+			margin: 0;
+			font-size: .2rem;
+			color: #929192;
+		}
+
+		@media( max-width: 375px ){
+			.woods_details_tools_star{
+				padding: 0;
+				padding-top: .05rem;
+			}
+			.woods_details_tools_shopcart{
+				padding: 0;
+				padding-top: .08rem;
+			}
+		}
+
+	/*遮罩*/
+		.woods_details_zhezhao{
+			display: none;
+			padding: 0 .3rem;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1500;
+			right: 0;
+			margin: 0 auto;
+			width: 100%;
+			max-width: 1170px;
+			height: 100%;
+			background-color: #000;
+			opacity: .0;
+			filter: alpha(opacity: 0); 
+		}

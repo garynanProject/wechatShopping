@@ -1,0 +1,87 @@
+/*引入模块*/
+
+	/*简易媒体框 --------------------------------------------------------*/
+		.simple_media_box{
+			padding: .3rem;
+			border-bottom: 1px solid #e5e5e5;
+			background: #fff;
+		}
+		.simple_media:nth-last-of-type(1) .simple_media_box{
+			border-bottom: none;
+		}
+		.simple_media_box_inner{
+			height: 1.1rem;
+		}
+		.simple_media_box_inner a{
+			position: relative;
+			display: block;
+			height: 100%;
+			color: #333;
+		}
+
+		/*图片*/
+			.simple_media_logo{
+				padding-right: .2rem;
+			}
+			.simple_media_logo img{
+				width: 1.1rem;
+			}
+
+		/*文字*/
+			.simple_media_txt h4{
+				width: 5.5rem;
+				font-size: .24rem;
+				letter-spacing: .02rem;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+			.simple_media_details{
+				font-size: .24rem;
+				letter-spacing: .01rem;
+				color: #ff6699;
+			}
+
+		/*删除*/
+			.simple_media_del{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: .96rem;
+				height: .28rem;
+				line-height: .28rem;
+				text-align: right;
+				font-size: .26rem;
+				color: #bbb;
+			}
+			.simple_media_del_img{
+				position: absolute;
+				top: -.01rem;
+				left:0;
+			}
+			.simple_media_del_img img{
+				height: .27rem;
+			}
+
+/*申请店铺 --------------------------------------------------------*/
+	.my_store_details{
+		width: 5.5rem;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		font-size: .24rem;
+		color: #999;
+	}
+	.my_store_condition{
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: .24rem;
+		color: #ff6699;
+	}
+
+	@media (min-width: 768px){
+		.my_store_details{
+			width: 5.3rem;
+		}
+	}

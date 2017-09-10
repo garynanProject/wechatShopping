@@ -1,0 +1,137 @@
+/*个人资料 --------------------------------------------------------*/
+	/* 头部 */
+		.my_saler_header_jubjon{
+			padding: .35rem .3rem .56rem .3rem;
+			border-bottom: 1px solid #e5e5e5;
+			background-color: #fb7575;
+		}
+		.my_saler_header_jubjon_inner{
+			position: relative;
+		}
+		.my_saler_header_jubjon_inner_title{
+			margin-bottom: .46rem;
+			font-size: .32rem;
+			font-weight: lighter;
+			color: #fff;
+		}
+		.my_saler_header_jubjon_inner_nowmoney{
+			margin-bottom: 0;
+			line-height: .7rem;
+			font-size: .68rem;
+			font-weight: lighter;
+			color: #fff;
+		}
+		.my_saler_tixian_btn{
+			position: absolute;
+			top: 0;
+			right: -.08rem;
+			padding: .12rem .24rem;
+			border-radius: .04rem;
+			font-size: .28rem;
+			color: #fb7575;
+			background-color: #fff;
+		}
+
+	/* 工具栏 */
+		.my_saler_tools{
+			margin-bottom: .22rem;
+		}
+		.my_saler_tools_box{
+			padding: 0 .3rem;
+			border-bottom: 1px solid #e5e5e5;
+			background: #fff;
+		}
+		.my_saler_tools_box_inner{
+			height: 1.78rem;
+			margin: 0;
+			padding: .25rem 0;
+			border-bottom: .03rem solid #f4f4f4;
+		}
+		.my_saler_tools_box_inner:nth-of-type(2){
+			border-bottom: none;
+		}
+		.my_saler_tools_box_inner_left , .my_saler_tools_box_inner_right{
+			height: 100%;
+			padding: 0;
+		}
+		.my_saler_tools_box_inner_left{
+			border-right: 1px solid #efefef;
+		}
+		.my_saler_tools_box_inner_right{
+			border-left: 1px solid #efefef;
+			padding-left: .3rem;
+		}
+
+		/*标题*/
+			.my_saler_tools_title{
+				height: .45rem;
+				font-size: .3rem;
+				color: #333;
+				margin-bottom: .11rem;
+			}
+			.my_saler_tools_title span{
+				float: left;
+				line-height: .45rem;
+				margin-right: .18rem;
+			}
+			.my_saler_tools_body{
+				font-size: .3rem;
+				color: #fb7575;
+				margin-bottom: 0;
+			}
+			.my_saler_tools_body small{
+				font-size: .2rem;
+			}
+
+	/* 分销说明 */
+		.my_saler_explain_box{
+			padding: .3rem .3rem .3rem .3rem ;
+			margin-bottom: .68rem;
+			border-top: 1px solid #e5e5e5;
+			border-bottom: 1px solid #e5e5e5;
+			background: #fff;
+		}
+		.my_saler_explain_box_header{
+			height: .5rem;
+			font-size: .32rem;
+			border-bottom: .02rem solid #e5e5e5;
+		}
+		.my_saler_explain_list{
+			padding: .12rem;
+		}
+		.my_saler_explain_list li{
+			list-style: none;
+			padding: .22rem 0;
+			font-size: .28rem;
+		}
+		.my_saler_explain_list li a{
+			color: #666;
+		}
+
+	/* 底部 */
+		.my_saler_footer_box{
+			padding: .05rem .3rem;
+			height: .94rem;
+			border-top: 1px solid #e5e5e5;
+			border-bottom: 1px solid #e5e5e5;
+			background: #fff;
+		}
+		.my_saler_footer_inner{
+			height: 100%;
+			margin: 0;
+		}
+		.my_saler_footer_inner a{
+			text-align: center;
+			font-size: .32rem;
+			color: #333;
+		}
+		.my_saler_footer_inner_left , .my_saler_footer_inner_right{
+			padding: .25rem 0;
+			height: 100%;
+		}
+		.my_saler_footer_inner_left{
+			border-right: 1px solid #efefef;
+		}
+		.my_saler_footer_inner_right{
+			border-left: 1px solid #efefef;
+		}

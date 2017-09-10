@@ -1,0 +1,67 @@
+/*我的优惠券 --------------------------------------------------------*/
+	.my_cupiont_main{
+		padding-top: .3rem;
+	}
+	.my_cupiont{
+		margin-bottom: .24rem;
+	}
+	.my_cupiont_box{
+		padding: 0 .3rem;
+	}
+	.my_cupiont_box_inner{
+		height: 2.12rem;
+		padding: .3rem 0;
+		background: url('../img/cupiont_bg0.png') center center / 100% 100% no-repeat;
+	}
+	.my_cupiont_box_inner.active{
+		background: url('../img/cupiont_bg1.png') center center / 100% 100% no-repeat !important;
+	}
+
+		/*优惠券详情*/
+			.my_cupiont_details{
+				height: 1.08rem;
+				text-align: center;
+			}
+			.my_cupiont_details_inner{
+				position: relative;
+				display: inline-block;		
+				height: 100%;
+				padding: 0 2.1rem 0 .5rem;
+				margin: 0 auto;
+				box-sizing: content-box;
+			}
+			.my_cupiont_details_inner img{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: .44rem;
+			}
+			.my_cupiont_rule{
+				position: absolute;
+				bottom: .1rem;
+				right: 0;
+				font-size: .26rem;
+				font-weight: lighter;
+				color: #fff;
+			}
+			.my_cupiont_equl{
+				/*height: 100%;*/
+				line-height: 1.08rem;
+				text-align: center;
+				font-size: 1.18rem;
+				font-weight: bold;
+				color: #fff;
+			}
+
+
+		/*优惠券期限*/
+			.my_cupiont_deadline{
+				height: .44rem;
+				padding-top: .14rem;
+				margin: 0;
+				text-align: center;
+				font-size: .26rem;
+				font-weight: lighter;
+				color: #fff;
+			}
+	

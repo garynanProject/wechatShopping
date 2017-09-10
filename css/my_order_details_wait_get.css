@@ -1,0 +1,296 @@
+/*模块引入*/
+	/*清单展示盒子 --------------------------------------------------------------*/
+		.list_box{
+			background: #fff;
+			margin-bottom: .22rem;
+		}
+		/*头部*/
+			.list_box_header{
+				border-bottom: 1px solid #d9d9d9;
+			}
+			.list_box_header_box{
+				padding: .22rem .3rem;
+			}
+			.list_box_header_box_inner{
+				height: .36rem;
+			}
+			/* logo */
+			.list_box_header_img{
+				float: left;
+			}
+			.list_box_header_img img{
+				width: .36rem;
+			}
+			/* 标题 */
+			.list_box_title{
+				float: left;
+				margin-left: .14rem;
+				line-height: .36rem;
+				font-size: .28rem;
+			}
+
+		/*清单内容*/
+			.list_box_body .list_box_body_box{
+				padding: .28rem .3rem .32rem .3rem;
+				height: 100%;
+				border-bottom: 1px solid #d9d9d9;
+			}
+			.list_box_body .list_box_body_box:nth-last-of-type(1){
+				border-bottom: none;
+			}
+
+	/*底部长按钮 --------------------------------------------------------------*/
+		.footer_long_btn_box{
+			padding: .34rem 1.2rem .56rem 1.2rem;
+		}
+		.footer_long_btn_real{
+			display: block;
+			box-sizing: border-box;
+			border: 2px solid #999;
+			border-radius: .45rem;
+			height: .9rem;
+			line-height: .86rem;
+			text-align: center;
+			font-size: .32rem;
+			color: #999;
+		}
+
+/*订单状态 --------------------------------------------------------------*/
+	.the_order_details_condition{
+		position: relative;
+		height: 1.12rem;
+		border-bottom: 1px solid #d9d9d9;
+		background: #fff;
+		margin-bottom: .22rem;
+	}
+	.the_order_details_condition_box{
+		padding: .24rem .3rem;
+		height: 100%;
+		font-size: .24rem;
+	}
+	.the_order_details_condition_box p{
+		margin-bottom: 0;
+	}
+	.the_order_details_nowreal{
+		color: #ff6699;
+	}
+
+	/*按钮*/
+		.the_order_details_btn{
+			position: absolute;
+			top: 50%;
+			right: .3rem;
+			margin-top: -.3rem;
+			padding: .14rem .25rem;
+			border: .03rem solid #ff6699;
+			border-radius: .3rem;
+			height: .6rem;
+			line-height: .32rem;
+			font-size: .28rem;
+			color: #ff6699;
+		}
+		.the_order_details_btn:nth-of-type(2){
+			margin-right: .2rem;
+		}
+		.the_order_details_condition .disabled{
+			border-color: #bbb;
+		}
+		.the_order_details_condition .disabled a{
+			color: #bbb;
+		}
+
+/*物流情况 --------------------------------------------------------------*/
+	.the_order_details_trans_condition{
+		margin-bottom: .22rem;
+		background: #fff;
+	}
+	.the_order_details_trans_condition_box{
+		padding: .26rem .3rem;
+	}
+	.the_order_details_trans_condition_box_inner p{
+		font-size: .28rem;
+		margin-bottom: .08rem;
+	}
+	.what_trans_brand , .the_trans_num{
+		margin-left: .28rem;
+	}
+	.the_order_details_trans_condition_check{
+		height: .6rem;
+	}
+	.the_order_details_trans_condition_check_btn{
+		float: right;
+		padding: .14rem .25rem;
+		border: .03rem solid #ff6699;
+		border-radius: .3rem;
+		height: .6rem;
+		line-height: .32rem;
+		font-size: .28rem;
+	}
+			
+/*订单地址 --------------------------------------------------------------*/
+	.the_order_details_adress{
+		margin-bottom: .22rem;
+		background: url('../img/personal.jpg') no-repeat center center/100% 100%;
+	}
+	.the_order_details_adress_box{
+		padding: .46rem .48rem;
+	}
+
+	/*订单所有人*/
+	.the_order_details_adress_owner{
+		font-size: .3rem;
+		margin-bottom: .14rem;
+	}
+	.the_order_details_adress_owner_tel{
+		margin-left: .54rem;
+	}
+
+	/*当前地址*/
+	.the_order_details_adress_nowadress{
+		font-size: .28rem;
+		color: #666;
+		margin-bottom: 0;
+	}
+	.the_order_details_adress_nowadress span{
+		margin-right: .1rem;
+	}
+
+/*商品清单 --------------------------------------------------------------*/
+	.the_order_details_woods_list{
+		background: #fff;
+		margin-bottom: .22rem;
+	}
+	/*商品清单头部*/
+		.the_order_details_woods_list_header{
+			border-bottom: 1px solid #d9d9d9;
+		}
+		.the_order_details_woods_list_header_box{
+			padding: .22rem .3rem;
+		}
+		.the_order_details_woods_list_header_box_inner{
+			height: .36rem;
+		}
+		/*头部图标*/
+		.the_order_details_woods_list_header_img{
+			float: left;
+		}
+		.the_order_details_woods_list_header_img img{
+			width: .36rem;
+		}
+		/*头部标题*/
+		.the_order_details_woods_list_title{
+			float: left;
+			margin-left: .14rem;
+			line-height: .36rem;
+			font-size: .28rem;
+		}
+
+	/*商品清单内容*/
+		.the_order_details_woods_list_body .the_order_details_woods_list_body_box{
+			padding: .28rem .3rem .32rem .3rem;
+			height: 100%;
+			border-bottom: 1px solid #d9d9d9;
+		}
+		.the_order_details_woods_list_body .the_order_details_woods_list_body_box:nth-last-of-type(1){
+			border-bottom: none;
+		}
+		.the_order_details_woods_list_body_item{
+			height: 100%;
+		}
+		.the_order_details_woods_list_body_item a{
+			display: block;
+		}
+		
+		/*图片部分*/
+			.the_order_details_woods_list_body_item_img{
+				padding-right: .18rem;
+			}
+			.the_order_details_woods_list_body_item img{ 
+				width: 1.1rem;
+			}
+
+		/*文字部分*/
+			.the_order_details_woods_list_body_item_txt{
+				position: relative;
+			}
+			.the_order_details_woods_list_body_item_txt h4{
+				width: 5.51rem;
+				margin-bottom: .1rem;
+				font-size: .28rem;
+				letter-spacing: .02rem;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				color: #333;
+			}
+			.the_order_details_woods_list_body_item_details{
+				margin-bottom: .06rem;
+				font-size: .24rem;
+				color: #d0d0d0;
+			}
+			.the_order_details_woods_list_body_item_details>span:nth-of-type(1){
+				margin-right: .5rem;
+			}
+			.the_order_details_woods_list_body_item_details>span:nth-of-type(2) span{
+				margin-right: .32rem;
+			}
+			.the_order_details_woods_list_body_item_details>span:nth-of-type(2) span:nth-of-type(1){
+				margin: 0 .32rem;
+			}
+
+			.the_order_details_woods_list_body_item_price{
+				margin-bottom: 0;
+				font-size: .24rem;
+				color: #ff6699;
+			}
+			/*链接图标*/
+				.the_order_details_woods_list_body_item_link{
+					position: absolute;
+					top: 50%;
+					right: 0;
+					z-index: 999;
+					margin-top: -.15rem;
+					font-size: .26rem;
+					color: #bfbfbf;
+				}
+
+			@media(max-width: 375px){
+				.the_order_details_woods_list_body_item_txt h4{
+					margin-bottom: .05rem;
+				}
+				.the_order_details_woods_list_body_item_details{
+					margin-bottom: .03rem;
+				}
+			}
+
+/*订单金额 --------------------------------------------------------------*/
+	/*头部*/
+		.the_order_details_tatle_title{
+			height: .4rem;
+		}
+		.the_order_details_tatle_title .list_box_title{
+			line-height: .4rem;
+		}
+		.list_box_title_tatle_price{
+			float: right;
+			color: #ff6699;
+			font-size: .28rem;
+		}
+	/*内容*/
+		.the_order_details_tatle{
+			height: 1.4rem;
+			margin: 0;
+			font-size: .26rem;
+			color: #666;
+		}
+		.the_order_details_tatle_left{
+			padding:0 .3rem 0 0;
+		}
+		.lthe_order_details_tatle_right{
+			padding: 0 0 0 .3rem;
+		}
+		.the_order_details_tatle p{
+			margin-bottom: .07rem;
+		}
+
+

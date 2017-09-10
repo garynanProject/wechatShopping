@@ -1,0 +1,184 @@
+//  公共变量
+	//  定位
+		@pos_f: fixed;
+		@pos_r: relative;
+		@pos_a: absolute;
+		@zIndex_max: 9999;
+
+	//  浮动
+		@f_l: left;
+		@f_r: right;
+
+	//  尺寸
+		@100pc: 100%;
+		@zero: 0;
+		@at: auto;
+
+	//  文本
+		@txt_c: center;
+
+	//  颜色
+		@main_c: #ff6699;
+		@main_bg_c: #f2f2f2;
+		@c_w: #ffffff;
+
+
+	//  显示类型
+		@no: none;
+		@bl: block;
+		@ib: inline-block;
+
+	//  线型
+		@s: solid;
+
+	//  优先级
+		@im: !important;
+
+	//  模式匹配变量
+		@affordable: url('../img/index_affordable.png');
+		@fashion: url('../img/index_fashion.png');
+		@star: url('../img/like_star.png');
+		@fashional: url('../img/fashional.png');
+		@chock: url('../img/chock.png');
+		@forward: url('../img/f_forward.png');
+
+//  公共混合
+	#base{
+
+		//  固定定位
+			//  固定在顶部
+			.fixed_top{
+				position: @pos_f;
+				top: @zero;
+				z-index: @zIndex_max;
+			}
+
+			//  固定在底部
+			.fixed_bot{
+				position: @pos_f;
+				bottom: @zero;
+				z-index: @zIndex_max;
+			}
+
+		//  绝对定位
+			//  基于顶部定位
+			.pos_t0{
+				position: @pos_a;
+				top: @zero;
+			}
+
+			//  基于左上角定位
+			.pos_t0l0{
+				position: @pos_a;
+				top: @zero;
+				left: @zero; 
+			}
+
+			//  基于右上角定位
+			.pos_t0r0{
+				position: @pos_a;
+				top: @zero;
+				right: @zero;
+			}
+
+			//  基于底部定位
+			.pos_b0{
+				position: @pos_a;
+				bottom: @zero;
+			}
+
+			//  基于左下角定位
+			.pos_b0{
+				position: @pos_a;
+				bottom: @zero;
+				left: @zero; 
+			}
+
+			//  基于底部定位
+			.pos_b0{
+				position: @pos_a;
+				bottom: @zero;
+				right: @zero;
+			}
+
+		//  定位居中
+			//  水平居中
+			.pos_c_x{
+				position: @pos_a;
+				left: @zero;
+				right: @zero;
+				margin: @zero @at;
+			}
+
+			//  垂直居中
+			.pos_c_y{
+				position: @pos_a;
+				top: @zero;
+				bottom: @zero;
+				margin: @at @zero;
+			}
+
+			//  全面居中
+			.pos_c_all{
+				position: @pos_a;
+				top: @zero;
+				bottom: @zero;
+				left: @zero;
+				right: @zero;
+				margin: @at @at;
+			}
+
+		//  定位拉伸
+			//  水平拉伸
+			.pos_s_x{
+				position: @pos_a;
+				left: @zero;
+				right: @zero;
+			}
+
+			//  垂直拉伸
+			.pos_s_y{
+				position: @pos_a;
+				top: @zero;
+				bottom: @zero;
+			}
+
+			//  全面拉伸
+			.pos_s_all{
+				position: @pos_a;
+				left: @zero;
+				right: @zero;
+				top: @zero;
+				bottom: @zero;
+			}
+
+		
+	}
+
+//  模式匹配
+	#model{
+		//  设置背景
+			.set_bg( affordable , @url ){
+				background-image: @url;
+			}
+			.set_bg( fashion , @url ){
+				background-image: @url;
+			}
+			.set_bg( star , @url ){
+				background-image: @url;
+			}
+			.set_bg( fashional , @url ){
+				background-image: @url;
+			}
+			.set_bg( chock , @url ){
+				background-image: @url;
+			}
+			.set_bg( forward , @url ){
+				background-image: @url;
+			}
+			.set_bg( @_ , @url ){
+				background-position: center center ;
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+	}

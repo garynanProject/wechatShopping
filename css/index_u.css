@@ -1,0 +1,75 @@
+#base .fixed_top {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+#base .fixed_bot {
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+}
+#base .pos_t0 {
+  position: absolute;
+  top: 0;
+}
+#base .pos_t0l0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#base .pos_t0r0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#base .pos_b0 {
+  position: absolute;
+  bottom: 0;
+}
+#base .pos_b0 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#base .pos_b0 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#base .pos_c_x {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#base .pos_c_y {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+#base .pos_c_all {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+}
+#base .pos_s_x {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#base .pos_s_y {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+#base .pos_s_all {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

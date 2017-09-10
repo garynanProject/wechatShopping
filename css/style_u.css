@@ -1,0 +1,89 @@
+/*字体预处理*/
+	html{
+		font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+		font-size: 43px;
+	}
+	body{
+		font-size: 16px;
+	}
+	@media(min-width: 375px){
+		html{
+		font-size: 50px;
+		}
+	}
+	@media(min-width: 414px){
+		html{
+		font-size: 56px;
+		}
+	}
+	@media(min-width: 600px){
+		html{
+		font-size: 81px;
+		}
+	}
+	@media(min-width: 740px){
+		html{
+		font-size: 100px;
+		}
+	}
+	@media(min-width: 768px){
+		html{
+		font-size: 103px;
+		}
+	}
+	@media(min-width: 992px){
+		html{
+		font-size: 134px;
+		}
+	}
+	@media(min-width: 1200px){
+		html{
+		font-size: 162px;
+		}
+	}
+
+/*尺寸预处理*/
+	div , ul , ol , li , h1 , h2 , h3 , h4 , h5 , h6 , form{
+		padding: 0;
+		margin: 0;
+	}
+
+	a{
+		color: rgb(255,102,156);
+		text-decoration: none !important;
+	}
+	a:hover{
+		color: #ff6699;
+		text-decoration: none !important;
+	}
+
+	body{
+		background-color: #f2f2f2;
+	}
+
+	.clear{
+		clear: both;
+	}
+
+
+/* 轮播图tags */
+	.swiper-pagination-bullet{
+		margin: 0 .09rem;
+		width: .12rem;
+		height: .12rem;
+		border-radius: .12rem;
+		opacity: 1;
+		filter: alpha( opacity: 100 );
+		background-color: #fff;
+	}
+	.swiper-pagination-bullet.swiper-pagination-bullet-active{
+		position: relative;
+		top: .03rem;
+		width: .2rem;
+		height: .2rem;
+		/**display: inline;
+		*zoom: 1;*/
+		border: .02rem solid #fff;
+		border-radius: .2rem;
+		background-color: rgba(255,102,153,.4);
+	}
